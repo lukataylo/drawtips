@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800px" height="600px" viewBox="0 0 800 600" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Illsutration</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="17" cy="17" r="17"></circle>
+        <rect id="path-3" x="14" y="39" width="201" height="130"></rect>
+        <rect id="path-5" x="9" y="0" width="52" height="54" rx="12"></rect>
+        <polygon id="path-7" points="0 0 57.1370968 24.4615385 0 53"></polygon>
+        <path d="M49.5,33.5 C49.5,24.5 45,15 39,13 C33,11 22.5,5 19.5,2 C16.5,-1 5,-0.5 6,11 C7,22.5 6.5,22 5,25 C3.5,28 -2.5,37.5 2,46 C6.5,54.5 15.5,57 21,54 C26.5,51 26,46 35.5,44 C45,42 49.5,42.5 49.5,33.5 Z" id="path-9"></path>
+        <path d="M66.5,176.5 C55,170.5 49,150.5 34,144.5 C19,138.5 -6,129 2.5,90.5 C11,52 21,70.5 35.5,42 C50,13.5 48,0.5 72,1 C96,1.5 111,32 113,47.5 C115,63 116,70 121.5,76.5 C127,83 157.5,97 158,122 C158.5,147 136,175 107,179 C78,183 78,182.5 66.5,176.5 Z" id="path-11"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Website" transform="translate(-320.000000, -130.000000)">
+            <g id="Header" style="mix-blend-mode: darken;" transform="translate(320.000000, 130.000000)">
+                <g id="Illo">
+                    <g id="Illsutration">
+                        <rect id="BG" fill="#FFFFFF" x="0" y="0" width="800" height="600"></rect>
+                        <path d="M21.5,402.5 L786.5,402.5" id="Ground" stroke="#ECEDF4" stroke-width="1.5" stroke-linecap="square"></path>
+                        <g id="Middle_building" transform="translate(140.000000, 101.000000)">
+                            <g id="Middle_building_bg" transform="translate(2.000000, 0.000000)">
+                                <polygon fill="#F4F5F8" points="491.5 301 491.5 28.4705357 1.5 51.5 1.5 301.000503"></polygon>
+                                <path d="M1.5,2.5 L1.5,301.560195" id="Left" stroke="#F4F5F8" stroke-linecap="square"></path>
+                                <path d="M488.5,0.5 L488.5,301.165928" id="Right" stroke="#F4F5F8" stroke-linecap="square"></path>
+                            </g>
+                            <g id="Bricks" transform="translate(0.000000, 91.000000)" stroke="#FFFFFF" stroke-linecap="square" stroke-width="1.2">
+                                <path d="M0.5,0.6 L35.5,0.6" id="Line"></path>
+                                <path d="M0.5,60.6 L35.5,60.6" id="Line-Copy"></path>
+                                <path d="M0.5,118.6 L35.5,118.6" id="Line-Copy-2"></path>
+                                <path d="M0.5,177.6 L35.5,177.6" id="Line-Copy-3"></path>
+                                <path d="M456.5,177.6 L491.5,177.6" id="Line-Copy-14"></path>
+                                <path d="M456.5,118.6 L491.5,118.6" id="Line-Copy-15"></path>
+                                <path d="M456.5,59.6 L491.5,59.6" id="Line-Copy-16"></path>
+                                <path d="M456.5,0.6 L491.5,0.6" id="Line-Copy-17"></path>
+                            </g>
+                            <g id="Door" transform="translate(36.000000, 22.000000)">
+                                <path d="M0.6,278.5 L0.6,27.4282971" id="Line" stroke="#FFFFFF" stroke-width="1.2" stroke-linecap="square"></path>
+                                <path d="M1.5,25.5 L1.5,4.47620396" id="Line" stroke="#F4F5F8" stroke-linecap="square"></path>
+                                <path d="M0.5,3.5 L116.5,0.5" id="Line" stroke="#F4F5F8" stroke-linecap="square"></path>
+                                <polygon id="Path-14" fill="#F4F5F8" points="14 27.5 14 10.9319585 108.067693 10.9319585 108.067693 21.5002168"></polygon>
+                                <polygon id="Path-13" fill="#FFFFFF" points="15 26 15 44.5067555 108.021358 44.5067555 108.021358 21.4791951"></polygon>
+                                <rect id="Rectangle" stroke="#EAECF2" stroke-width="1.5" x="7.75" y="54.75" width="103.5" height="223.5"></rect>
+                                <path d="M116.5,1.5 L116.5,23.5" id="Line" stroke="#F4F5F8" stroke-linecap="square"></path>
+                                <path d="M117.6,277.5 L117.6,22.492157" id="Line" stroke="#FFFFFF" stroke-width="1.2" stroke-linecap="square"></path>
+                                <rect id="Rectangle-2" fill="#FFFFFF" x="17" y="63" width="87" height="114"></rect>
+                                <path d="M16.5,65.5 L102.5,65.5" id="Line" stroke="#F1F2F8" stroke-linecap="square"></path>
+                                <path d="M16.5,69.5 L102.5,69.5" id="Line-Copy-4" stroke="#F1F2F8" stroke-linecap="square"></path>
+                                <path d="M16.5,73.5 L102.5,73.5" id="Line-Copy-5" stroke="#F1F2F8" stroke-linecap="square"></path>
+                                <path d="M16.5,76.5 L102.5,76.5" id="Line-Copy-6" stroke="#F1F2F8" stroke-linecap="square"></path>
+                                <path d="M16.5,78.5 L102.5,78.5" id="Line-Copy-7" stroke="#F1F2F8" stroke-linecap="square"></path>
+                                <path d="M16.5,84.5 L102.5,84.5" id="Line-Copy-8" stroke="#F1F2F8" stroke-linecap="square"></path>
+                                <path d="M16.5,87.5 L102.5,87.5" id="Line-Copy-9" stroke="#F1F2F8" stroke-linecap="square"></path>
+                                <path d="M16.5,90.5 L102.5,90.5" id="Line-Copy-10" stroke="#F1F2F8" stroke-linecap="square"></path>
+                                <path d="M16.5,93.5 L102.5,93.5" id="Line-Copy-11" stroke="#F1F2F8" stroke-linecap="square"></path>
+                                <path d="M16.5,96.5 L102.5,96.5" id="Line-Copy-12" stroke="#F1F2F8" stroke-linecap="square"></path>
+                                <path d="M16.5,100.5 L102.5,100.5" id="Line-Copy-13" stroke="#F1F2F8" stroke-linecap="square"></path>
+                                <circle id="Oval" fill="#F4F5F8" cx="85.5" cy="118.5" r="2.5"></circle>
+                                <path d="M33.5,62.5 L33.5,108.543458" id="Line" stroke="#F4F5F8" stroke-linecap="square"></path>
+                                <path d="M85.5,63.5 L85.5,115.5" id="Line" stroke="#EBECF5" stroke-linecap="square"></path>
+                            </g>
+                            <g id="Menu" transform="translate(164.000000, 126.000000)">
+                                <rect id="Rectangle-3" fill="#FFFFFF" x="9" y="6" width="44" height="19"></rect>
+                                <rect id="Rectangle-3-Copy" fill="#FFFFFF" x="9" y="29" width="44" height="69"></rect>
+                                <polygon id="Path-16" stroke="#FFFFFF" points="0 4 55.5 3.5 55 100.5 0.5 104"></polygon>
+                                <polygon id="Path-15" stroke="#E8EAF1" points="3 1 58.5 0.5 57.5 102 3 105"></polygon>
+                            </g>
+                            <g id="Lamp" transform="translate(179.000000, 71.000000)">
+                                <g id="Path-20" transform="translate(0.000000, 12.000000)">
+                                    <mask id="mask-2" fill="white">
+                                        <use xlink:href="#path-1"></use>
+                                    </mask>
+                                    <use id="Mask" fill="#FFFFFF" xlink:href="#path-1"></use>
+                                    <path d="M17.5,3.5 C17.5,7.5 15.6666667,9.83333333 12,10.5 C6.5,11.5 4.5,13 5,16 C5.5,19 13.5,22.5 7,24.5 C0.5,26.5 -2.5,32.5 -3.5,31 C-4.5,29.5 -7,2 1,0.5 C6.33333333,-0.5 11.8333333,0.5 17.5,3.5 Z" fill="#F9F9FC" mask="url(#mask-2)"></path>
+                                </g>
+                                <polygon id="Path-17" fill="#E8EAF1" points="4 11 4 17.5192024 30.0051835 17.5192024 30.0051835 9.93447666"></polygon>
+                                <path d="M8.5,8.5 L25.5,8.5 C22.5,5.83333333 19.3333333,4.66666667 16,5 C12.6666667,5.33333333 10.1666667,6.5 8.5,8.5 Z" id="Path-18" fill="#E8EAF1"></path>
+                                <path d="M14,5 C13.6666667,1.66666667 14.6666667,4.66532114e-16 17,0 C20.5,0 20,4.5 20,5" id="Path-19" stroke="#E8EAF1"></path>
+                            </g>
+                            <g id="Banner" transform="translate(225.000000, 53.000000)">
+                                <circle id="Oval-2" fill="#E8EAF1" cx="12.5" cy="43.5" r="6.5"></circle>
+                                <circle id="Oval-2-Copy" fill="#E8EAF1" cx="27.5" cy="43.5" r="6.5"></circle>
+                                <circle id="Oval-2-Copy-2" fill="#E8EAF1" cx="41.5" cy="43.5" r="6.5"></circle>
+                                <circle id="Oval-2-Copy-3" fill="#E8EAF1" cx="56.5" cy="43.5" r="6.5"></circle>
+                                <circle id="Oval-2-Copy-4" fill="#E8EAF1" cx="71.5" cy="43.5" r="6.5"></circle>
+                                <circle id="Oval-2-Copy-5" fill="#E8EAF1" cx="87.5" cy="43.5" r="6.5"></circle>
+                                <circle id="Oval-2-Copy-6" fill="#E8EAF1" cx="102.5" cy="43.5" r="6.5"></circle>
+                                <circle id="Oval-2-Copy-7" fill="#E8EAF1" cx="117.5" cy="43.5" r="6.5"></circle>
+                                <circle id="Oval-2-Copy-8" fill="#E8EAF1" cx="131.5" cy="43.5" r="6.5"></circle>
+                                <circle id="Oval-2-Copy-9" fill="#E8EAF1" cx="145.5" cy="43.5" r="6.5"></circle>
+                                <circle id="Oval-2-Copy-10" fill="#E8EAF1" cx="158.5" cy="43.5" r="6.5"></circle>
+                                <circle id="Oval-2-Copy-11" fill="#E8EAF1" cx="173.5" cy="43.5" r="6.5"></circle>
+                                <circle id="Oval-2-Copy-12" fill="#E8EAF1" cx="187.5" cy="43.5" r="6.5"></circle>
+                                <circle id="Oval-2-Copy-13" fill="#E8EAF1" cx="202.5" cy="43.5" r="6.5"></circle>
+                                <circle id="Oval-2-Copy-14" fill="#E8EAF1" cx="213.5" cy="43.5" r="6.5"></circle>
+                                <polygon id="Path-21" fill="#E8EAF1" points="5.5 26 224.000572 26 212 0 24 2.84217094e-14"></polygon>
+                                <rect id="Rectangle-4" fill="#E8EAF1" x="5" y="28" width="219" height="15"></rect>
+                                <g id="Window" transform="translate(0.000000, 13.000000)">
+                                    <mask id="mask-4" fill="white">
+                                        <use xlink:href="#path-3"></use>
+                                    </mask>
+                                    <use id="Mask" fill="#FFFFFF" xlink:href="#path-3"></use>
+                                    <path d="M219.5,20.5 C218.5,39.1666667 209.166667,49.1666667 191.5,50.5 C165,52.5 174.5,46 153,52 C131.5,58 139,73 103.5,75.5 C68,78 59.5,76 43,81 C26.5,86 16.5,98 5.5,95.5 C-1.83333333,93.8333333 -1.66666667,62.8333333 6,2.5 C75.3333333,0.166666667 119,-1.55431223e-15 137,2 C155,4 182.5,10.1666667 219.5,20.5 Z" id="Path-22" fill="#F9F9FC" mask="url(#mask-4)"></path>
+                                </g>
+                            </g>
+                            <rect id="Shelf" stroke="#FFFFFF" fill="#F4F5F8" x="232" y="235" width="218" height="10"></rect>
+                        </g>
+                        <g id="Man_2" transform="translate(510.000000, 192.000000)">
+                            <polygon id="Path-27" fill="#FF957C" points="118.5 217.5 122 215.5 126 220.5 123 223"></polygon>
+                            <polygon id="Path-28" fill="#FF957C" points="16.5 214 19.5 217 17 219.5 14.5 217"></polygon>
+                            <path d="M118.5,218.5 C117,218.5 85,189.5 76.5,149.5 L20.5,217 L15,214 L73.5,118 L97.5,118 C92.8333333,152.666667 101.5,184.833333 123.5,214.5 C121.166667,217.166667 119.5,218.5 118.5,218.5 Z" id="trousers_bg" fill="#3D4166"></path>
+                            <path d="M62,166.5 L77,150 C75,140.333333 74.1666667,135.333333 74.5,135 C75,134.5 68.5,143 68.5,146.5 C68.5,150 67,154 65,154.5 C63.6666667,154.833333 62.6666667,158.833333 62,166.5 Z" id="Shaodw" fill="#24294F"></path>
+                            <path d="M121,222 L126.5,218.5 L129.5,226 L125.5,229.5 L115.5,230 C115.833333,227.666667 116.5,226.5 117.5,226.5 C119,226.5 121.5,226.5 121.5,226 C121.5,225.666667 121.333333,224.333333 121,222 Z" id="Path-29" fill="#3D4166"></path>
+                            <path d="M18.5,219 C18.5,219 17.3333333,221 15,225 L6.5,225 L0,218.5 C2.33333333,216.5 4,215.833333 5,216.5 C6.5,217.5 5.5,218 7,218.5 C8.5,219 11,219 11.5,218.5 C11.8333333,218.166667 12.8333333,217.333333 14.5,216 C17.1666667,218 18.5,219 18.5,219 Z" id="Path-30" fill="#3D4166"></path>
+                            <path d="M83.5,20 C81.5,22.3333333 81,24.1666667 82,25.5 C83.5,27.5 83.5,29 85.5,29.5 C87.5,30 107,35.5 107.5,32.5 C108,29.5 111.5,22 110.5,18 C109.5,14 102.5,6.5 98.5,8.5 C95.8333333,9.83333333 90.8333333,13.6666667 83.5,20 Z" id="Head" fill="#FF957C"></path>
+                            <polygon id="nek" fill="#FF957C" points="87 38 87 50 95.5 49.5 95.5 39"></polygon>
+                            <path d="M73.5,118 L97.5,117.5 C100.5,92.5 102.833333,79.1666667 104.5,77.5 C107,75 103,49 94,49 C85,49 81,54 81.5,68.5 C81.8333333,78.1666667 79.1666667,94.6666667 73.5,118 Z" id="T_shirt" fill="#FFFFFF"></path>
+                            <path d="M100,57 C100,58 99,79.5 98.5,80.5 C98.1666667,81.1666667 96.8333333,82.3333333 94.5,84 L95,75 C97.6666667,69 99,63.5 99,58.5 C99.6666667,56.8333333 100,56.3333333 100,57 Z" id="T-shirt_shadow" fill="#F1F3F4"></path>
+                            <path d="M85,29 L85.5,37 C89.8333333,40.3333333 93.1666667,42 95.5,42 C99,42 103.5,43 104.5,40.5 C105.5,38 108,33.5 109,30 C110,26.5 110.5,16 110,13 C109.5,10 110.5,8.5 111,8 C111.5,7.5 100,-1.5 94.5,0.5 C89,2.5 82.5,9.5 82,12 C81.6666667,13.6666667 82.1666667,14.8333333 83.5,15.5 L80.5,17 C79.5,18.3333333 79.5,19.5 80.5,20.5 C82,22 84,20.5 84.5,22 C84.8333333,23 85,25.3333333 85,29 Z" id="head" fill="#3D4166"></path>
+                            <path d="M86,19 C86,19.5 88.25,26.5 87.5,28.5 C86.75,30.5 93,25.5 97.5,26 C102,26.5 105.5,30 106,30.5 C106.5,31 111.5,28 109.5,21 C107.5,14 107.5,11 103.5,11 C100.833333,11 98,11 95,11 C89,16 86,18.6666667 86,19 Z" id="Path-31" fill="#FF957C"></path>
+                            <path d="M81.5,21.5 L84.5,22.5 C85.5,24.8333333 85.8333333,26.5 85.5,27.5 C85,29 84.5,29 83,27.5 C82,26.5 81.5,24.5 81.5,21.5 Z" id="Path-32" fill="#FF957C"></path>
+                            <polygon id="Path-33" fill="#ED6742" points="99.5 18.5 101.5 15.5 103 24.5 99.5 25.5"></polygon>
+                            <path d="M93.5,30 C99.1666667,29.6666667 102.333333,30.1666667 103,31.5 C102.333333,33.5 100.666667,34.3333333 98,34 C95.3333333,33.6666667 93.8333333,32.3333333 93.5,30 Z" id="Path-34" fill="#FFFFFF"></path>
+                        </g>
+                        <g id="Pencil" transform="translate(195.000000, 254.000000)">
+                            <g id="Eraser_main" transform="translate(0.000000, 3.000000)">
+                                <mask id="mask-6" fill="white">
+                                    <use xlink:href="#path-5"></use>
+                                </mask>
+                                <use id="Mask" fill="#EF6B42" xlink:href="#path-5"></use>
+                                <path d="M38.5,0 C33.5,10 31.8333333,18.5 33.5,25.5 C36,36 26,49.5 26,51 C26,52 26.8333333,54 28.5,57 L0.5,54.5 L6.5,0 L38.5,0 Z" id="Path-26" fill="#FF9680" mask="url(#mask-6)"></path>
+                            </g>
+                            <rect id="pencil_bg" fill="#FFC04D" x="69" y="3" width="308" height="52"></rect>
+                            <g id="Eraser" transform="translate(42.000000, 0.000000)">
+                                <rect id="Rectangle-6" stroke="#3D4166" fill="#FFFFFF" x="0.5" y="1.5" width="26" height="56"></rect>
+                                <path d="M6.5,0.487977075 L6.5,59.0452261" id="Line" stroke="#3D4166" stroke-linecap="square"></path>
+                                <path d="M19.5,0.487977075 L19.5,59.0452261" id="Line-Copy-18" stroke="#3D4166" stroke-linecap="square"></path>
+                                <circle id="Oval-3" fill="#3D4166" cx="14" cy="5" r="1"></circle>
+                                <circle id="Oval-3-Copy" fill="#3D4166" cx="14" cy="12" r="1"></circle>
+                                <circle id="Oval-3-Copy-2" fill="#3D4166" cx="14" cy="20" r="1"></circle>
+                                <circle id="Oval-3-Copy-3" fill="#3D4166" cx="14" cy="27" r="1"></circle>
+                                <circle id="Oval-3-Copy-4" fill="#3D4166" cx="14" cy="34" r="1"></circle>
+                                <circle id="Oval-3-Copy-5" fill="#3D4166" cx="14" cy="41" r="1"></circle>
+                                <circle id="Oval-3-Copy-6" fill="#3D4166" cx="14" cy="49" r="1"></circle>
+                                <circle id="Oval-3-Copy-7" fill="#3D4166" cx="14" cy="56" r="1"></circle>
+                            </g>
+                            <path d="M69.4935897,37.75 L376.50641,37.75" id="Line-Copy-19" stroke="#3D4166" stroke-width="1.5" stroke-linecap="square"></path>
+                            <path d="M69.4935897,21.75 L376.50641,21.75" id="Line" stroke="#3D4166" stroke-width="1.5" stroke-linecap="square"></path>
+                            <g id="Pencil_front" transform="translate(369.000000, 3.000000)">
+                                <g id="Rectangle-5" transform="translate(7.338710, 0.000000)">
+                                    <mask id="mask-8" fill="white">
+                                        <use xlink:href="#path-7"></use>
+                                    </mask>
+                                    <use id="Mask" fill="#FFDFC3" xlink:href="#path-7"></use>
+                                    <rect fill="#3D4166" mask="url(#mask-8)" x="40.8870968" y="13.25" width="24.1129032" height="26.5"></rect>
+                                </g>
+                                <path d="M8.38709677,18.3461538 C13.0191624,18.3461538 16.7741935,14.46739 16.7741935,9.68269231 C16.7741935,4.89799462 12.6320656,0.5 8,0.5 C3.36793436,0.5 0,4.89799462 0,9.68269231 C0,14.46739 3.75503113,18.3461538 8.38709677,18.3461538 Z" id="Oval-4" fill="#FFDFC3"></path>
+                                <ellipse id="Oval-4-Copy" fill="#FFDFC3" cx="8.38709677" cy="27.0096154" rx="8.38709677" ry="8.66346154"></ellipse>
+                                <ellipse id="Oval-4-Copy-2" fill="#FFDFC3" cx="8.38709677" cy="43.3173077" rx="8.38709677" ry="8.66346154"></ellipse>
+                            </g>
+                        </g>
+                        <g id="Left_brick_building" transform="translate(1.000000, 104.000000)">
+                            <path d="M79,55.5 C79,57.1666667 67.3333333,138.333333 44,299 L79,299 C79,135 79,53.8333333 79,55.5 Z" id="Shadow" fill="#F4F5F8" opacity="0.50220788"></path>
+                            <path d="M6.5,250.5 L6.5,263.5" id="Line" stroke="#ECEDF4" stroke-width="1.5" stroke-linecap="square"></path>
+                            <path d="M50.5,263.5 L1.5,263.5" id="Line" stroke="#ECEDF4" stroke-width="1.5" stroke-linecap="square"></path>
+                            <path d="M25.5,263.5 L25.5,278.5" id="Line" stroke="#ECEDF4" stroke-width="1.5" stroke-linecap="square"></path>
+                            <path d="M25.5,239.5 L25.5,249.5" id="Line" stroke="#ECEDF4" stroke-width="1.5" stroke-linecap="square"></path>
+                            <path d="M0.5,250.5 L51.5,250.5" id="Line" stroke="#ECEDF4" stroke-width="1.5" stroke-linecap="square"></path>
+                            <path d="M38.5,250.5 L38.5,263.5" id="Line" stroke="#ECEDF4" stroke-width="1.5" stroke-linecap="square"></path>
+                            <path d="M55.5,181.5 L55.5,192.68034" id="Line" stroke="#ECEDF4" stroke-width="1.5" stroke-linecap="square"></path>
+                            <path d="M30.5,181.5 L79.5,181.5" id="Line" stroke="#ECEDF4" stroke-width="1.5" stroke-linecap="square"></path>
+                            <path d="M35.5,168.5 L35.5,180.5" id="Line" stroke="#ECEDF4" stroke-width="1.5" stroke-linecap="square"></path>
+                            <path d="M67.5,168.5 L67.5,181.5" id="Line" stroke="#ECEDF4" stroke-width="1.5" stroke-linecap="square"></path>
+                            <path d="M66.5,141.5 L78.5,141.5" id="Line" stroke="#ECEDF4" stroke-width="1.5" stroke-linecap="square"></path>
+                            <path d="M48.5,153.5 L77.5,153.5" id="Line" stroke="#ECEDF4" stroke-width="1.5" stroke-linecap="square"></path>
+                            <path d="M54.5,153.5 L54.5,168.5" id="Line" stroke="#ECEDF4" stroke-width="1.5" stroke-linecap="square"></path>
+                            <path d="M31.5,168.5 L78.5,168.5" id="Line" stroke="#ECEDF4" stroke-width="1.5" stroke-linecap="square"></path>
+                            <path d="M78.75,0.5 L78.75,296.515202" id="Line" stroke="#ECEDF4" stroke-width="1.5" stroke-linecap="square"></path>
+                            <path d="M42.5,127.5 L78.5,127.5" id="Line" stroke="#ECEDF4" stroke-width="1.5" stroke-linecap="square"></path>
+                            <path d="M54.5,119.5 L54.5,127.5" id="Line" stroke="#ECEDF4" stroke-width="1.5" stroke-linecap="square"></path>
+                        </g>
+                        <g id="Tree" transform="translate(639.000000, 79.000000)">
+                            <g id="Pot" transform="translate(42.000000, 286.000000)">
+                                <path d="M5,9 L41,9 C37,12.3333333 31.1666667,14 23.5,14 C12,14 21.5,23.5 15,27.5 C10.6666667,30.1666667 8.5,31.8333333 8.5,32.5 L5,9 Z" id="Pot_shadow" fill="#F4F5F8"></path>
+                                <polygon id="Pot_base" stroke="#EBECF5" points="4.5 8.75 10.5 37.5 43.5037877 37.5 51 8.75"></polygon>
+                                <polygon id="Pot_top" stroke="#EBECF5" points="1.5 8 54.0214242 8 53.5 0.5 2 0.5 0.5 8"></polygon>
+                            </g>
+                            <g id="Tree_lines" transform="translate(65.000000, 199.000000)" stroke="#EBECF5">
+                                <polygon id="Tree_bg" points="11 88 8.5 7 0.5 0 0.5 88"></polygon>
+                                <path d="M5.5,13 L5.5,29" id="Path-2"></path>
+                                <path d="M7.5,72.5 L7.5,84.5" id="Path-2-Copy-2"></path>
+                                <path d="M7.5,60.5 L7.5,67.5" id="Path-2-Copy-3"></path>
+                                <path d="M3.5,7.5 L3.5,33.5" id="Path-2-Copy"></path>
+                            </g>
+                            <g id="Left_bg" transform="translate(0.000000, 170.000000)">
+                                <mask id="mask-10" fill="white">
+                                    <use xlink:href="#path-9"></use>
+                                </mask>
+                                <use id="Mask" fill="#ECEDF4" xlink:href="#path-9"></use>
+                                <path d="M16,54.5 C11.6666667,50.8333333 9.66666667,47 10,43 C10.5,37 14.5,35 15.5,29.5 C16.5,24 15.5,25 12,20 C8.5,15 7,12 9.5,8.5 C12,5 13,3 16.5,1.5 C20,6.21724894e-15 10.5,-9 5,-2.5 C-0.5,4 2,28.5 -2.18047802e-13,37 C-2,45.5 -6,48.5 3,53.5 C9,56.8333333 13.3333333,57.1666667 16,54.5 Z" id="Path-7" fill="#F4F5F8" mask="url(#mask-10)"></path>
+                            </g>
+                            <g id="Branch" transform="translate(15.000000, 184.000000)">
+                                <path d="M19,22.5 C21,17.5 21.6666667,13.3333333 21,10" id="Path-4" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path d="M17,24.5 C17,24.5 12,27.5 5.5,26.5" id="Path-5" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path d="M13.5,14 C13,14 8,14 6,15" id="Path-6" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path d="M55,52.5 C53.6666667,57.1666667 52.8333333,59.1666667 52.5,58.5 C52,57.5 27.5,42 20.5,31 C17.7001615,26.6002538 16.6919068,22.1438274 14.5,18 C12.3080932,13.8561726 2.10008077,0.600023076 0,0 C8.66666667,7.66666667 13.8333333,13.1666667 15.5,16.5 C18,21.5 21.5,29 30,36 C38.5,43 52,51.5 53,51.5" id="Path-3" stroke="#ECEDF4" fill="#FFFFFF"></path>
+                            </g>
+                            <g id="Wall_right" transform="translate(107.000000, 0.000000)">
+                                <polygon id="Shadow" fill="#F9F9FC" points="0 313.5 43.5 39.5 3 39.5"></polygon>
+                                <path d="M2.5,0.5 L2.5,323.555723" id="Wall" stroke="#ECEDF4" stroke-width="1.5" stroke-linecap="square"></path>
+                            </g>
+                            <g id="Tree_top" transform="translate(1.000000, 27.000000)">
+                                <g id="Tree_shadow">
+                                    <mask id="mask-12" fill="white">
+                                        <use xlink:href="#path-11"></use>
+                                    </mask>
+                                    <use id="Mask" fill="#ECEDF4" xlink:href="#path-11"></use>
+                                    <path d="M83,180 C59.6666667,163 48.5,145.5 49.5,127.5 C51,100.5 54.5,92.5 58.5,81 C62.5,69.5 64,65 59,59 C54,53 50.5,33.5 63.5,23 C72.1666667,16 81.6666667,10.1666667 92,5.5 C75.3333333,-5.5 64.5,-9.33333333 59.5,-6 C52,-1 28,46 19,52 C10,58 4.17443857e-14,71.5 -1,83.5 C-2,95.5 -7.5,95 -2.5,109 C2.5,123 -5.5,124 8,134 C21.5,144 54.5,170.5 59.5,177.5 C62.8333333,182.166667 70.6666667,183 83,180 Z" fill="#F4F5F8" mask="url(#mask-12)"></path>
+                                </g>
+                                <g id="Tree_branches" transform="translate(39.000000, 29.000000)" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M33,123 C20.6666667,111 18.8333333,90.1666667 27.5,60.5 C36.1666667,30.8333333 36.3333333,10.6666667 28,0" id="Path-8"></path>
+                                    <path d="M26.5,112 C34.1666667,114.333333 43.5,110.166667 54.5,99.5 C71,83.5 76,79 78.5,79" id="Path-9"></path>
+                                    <path d="M27.5,60 C27.5,60 25,55 14,54 C6.66666667,53.3333333 2.16666667,47.6666667 0.5,37" id="Path-10"></path>
+                                    <path d="M69,92.5 L62.5,92.5" id="Path-11"></path>
+                                    <path d="M66,71 C61,80.3333333 59.3333333,87.3333333 61,92" id="Path-12"></path>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="Man_1" transform="translate(143.000000, 195.000000)">
+                            <path d="M110.5,213.5 C110.5,213.5 111.333333,214.666667 113,217 L116.5,214 L112.5,210.5 C111.166667,212.5 110.5,213.5 110.5,213.5 Z" id="Path-23" fill="#FFC04D"></path>
+                            <polygon id="Path-24" fill="#FFC04D" points="8 211.5 5 216 7 218.5 11.5 214"></polygon>
+                            <path d="M6,211.5 C6,211.5 25,182 28,169.5 C31,157 32.5,132 32.5,114.5 L56.5051015,114.5 L115,210 L110,214 L53,148.5 C40.6666667,179.166667 27,201.333333 12,215 C8,212.666667 6,211.5 6,211.5 Z" id="Trousers_bg" fill="#3D4166"></path>
+                            <path d="M53.5,147.5 C55.5,138.833333 56.1666667,133.833333 55.5,132.5 C54.5,130.5 59,136.5 60.5,142 C62,147.5 63.5,153 66,154 C67.6666667,154.666667 68.5,158.5 68.5,165.5 L53.5,147.5 Z" id="Shadow" fill="#24294F"></path>
+                            <path d="M112,216.5 L116.5,213.5 L119.5,216 C121.5,216 122.833333,215.666667 123.5,215 C124.5,214 128.5,213.5 129,215 L122.5,222 L114,222 L112,216.5 Z" id="Shoe_1" fill="#3D4166"></path>
+                            <path d="M4.5,216 L0,222.5 L3.5,227 L15,227.5 C14,224.5 12.6666667,223.166667 11,223.5 C8.5,224 7.5,223.25 7.5,222.5 C7.5,222 8.16666667,221 9.5,219.5 L4.5,216 Z" id="Shoe_2" fill="#3D4166"></path>
+                            <path d="M32,114.5 C33,77.8333333 33.6666667,58.5 34,56.5 C34.5,53.5 41.5,41 42.5,41 C43.5,41 55.5,43 57.5,48 C58.8333333,51.3333333 60.1666667,57.3333333 61.5,66 L50,72 L57,115 L32,114.5 Z" id="T-shirt" fill="#FFFFFF"></path>
+                            <path d="M44.5,59.5 L48.5,71.5 C54.8333333,87.5 57.6666667,96.3333333 57,98 C56,100.5 52.202381,103 51.5,101 C50.797619,99 50,91 48.5,89 C47,87 44.5,81 43,80 C42,79.3333333 42.5,72.5 44.5,59.5 Z" id="T-shirt_shadow" fill="#F1F3F4"></path>
+                            <path d="M50,71.5 L61.5,67 C58.8333333,84.3333333 64.6666667,98.5 79,109.5 C81,112.5 81.1666667,114.666667 79.5,116 C77,118 75,117.5 74,117 C73.3333333,116.666667 73.8333333,114.833333 75.5,111.5 C57.8333333,101.833333 49.1666667,88.8333333 49.5,72.5 L50,71.5 Z" id="Arm" fill="#FFC04D"></path>
+                            <path d="M44,41 L46,31.5 L43,19.5 L64.5,8 C69.1666667,15.6666667 70.8333333,22 69.5,27 C67.5,34.5 64,40 61.5,39.5 C59,39 53.5,37.5 53.5,38 C53.5,38.3333333 53.5,40.6666667 53.5,45 L44,41 Z" id="Face" fill="#FFC04D"></path>
+                            <path d="M46,32.5 L48.5,29.5 C47.5,28.5 46.8333333,27.6666667 46.5,27 C46,26 43.5,21.5 47,21 C49.3333333,20.6666667 50.3333333,22 50,25 L53.5,25 L52,17.5 L52.5,15.5 L63.5,11 L70.5,11.5 L66,4 L59.5,3.5 C57.8333333,1.16666667 56.6666667,0.166666667 56,0.5 C55.3333333,0.833333333 52.6666667,1.16666667 48,1.5 L41.5,7.5 L40.5,12.5 L40.5,15.5 L43,20 L42.5,27.5 L46,32.5 Z" id="hair" fill="#414469"></path>
+                            <polygon id="Path-25" fill="#EF6B42" points="69 21 72 26.5 69 28"></polygon>
+                        </g>
+                        <path d="M604.5,266 C604.5,278.333333 603.166667,286 600.5,289 C597.833333,292 589.333333,298.833333 575,309.5 L566,309.5 C568.666667,306.833333 570.5,305.5 571.5,305.5 C573,305.5 575,305.5 575.5,305 C576,304.5 591.5,289 592,286.5 C592.5,284 594.5,275.5 594.5,272.5 C594.5,270.5 594.333333,267.666667 594,264 L604.5,266 Z" id="hand_top" fill="#FF957C"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

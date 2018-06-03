@@ -1,0 +1,162 @@
+/* Draw.tips Stylesheet v1.0 by Luka Dadiani */
+
+body {
+  background-color: #F8F8F8;
+  font-family: 'Life Savers', cursive;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-family: 'Life Savers', helvetica, arial, sans-serif;
+  font-size: 38px;
+  color: #596981;
+  letter-spacing: 2px;
+  font-weight: 400;
+}
+
+h2 {
+  font-family: 'Open Sans', helvetica, arial, sans-serif;
+  font-size: 18px;
+  color: #596981;
+  letter-spacing: 0;
+  font-weight: 400;
+}
+
+h3 {
+  font-family: 'Open Sans', helvetica, arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600px;
+}
+
+h1 strong {
+  color: #FFAC00;
+}
+
+p {
+  font-family: 'Open Sans', helvetica, arial, sans-serif;
+  font-size: 16px;
+  color: #596981;
+  letter-spacing: 0;
+  line-height: 1.4em;
+}
+
+h2 a, p a {
+  color: #FFAC00;
+}
+
+#main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+
+/* HEADER WITH IMAGE AND TITLE */
+
+.logo {
+  float: left;
+  display: inline-block;
+}
+
+nav {
+  float: right;
+  display: inline-block;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+  float: left;
+  margin-right: 15px;
+}
+
+nav ul li a {
+  font-family: LifeSavers-ExtraBold;
+  font-size: 14px;
+  color: #596981;
+  letter-spacing: 1.75px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #FFAC00;
+}
+
+.hero {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: -100px;
+}
+
+.hero img {
+  margin: 0 auto;
+  margin-top: -50px;
+  width: 100%;
+  height: auto;
+  max-width: 800p ;
+}
+
+/* LESSONS SECTION */
+
+.lessons {
+  margin-bottom: 60px;
+}
+
+.lesson {
+  width: 100%;
+  min-height: 40px;
+  text-align: left;
+  padding: 5px 15px 5px 10px;
+  margin: 20px 10px;
+  background: #FFFFFF;
+  border: 1px solid #EFEFEF;
+  box-shadow: 0 0 21px 0 rgba(89,105,129,0.24);
+  border-radius: 6px;
+}
+
+.lesson h2 {
+  margin-left: 15px;
+}
+
+.lesson-soon {
+  width: 100%;
+  min-height: 40px;
+  text-align: left;
+  padding: 5px 15px 5px 10px;
+  margin: 20px 10px;
+  border: 2px dashed #596981;
+  border-radius: 6px;
+}
+
+.lesson-soon h2 {
+  margin-left: 15px;
+}
+
+.lesson-content {
+  display: inline-block;
+  margin: 15px;
+
+  display: none;
+}
+
+/* About Section */
+
+#about {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 400px;
+  margin-bottom: 100px;
+}
+
+#about h1 {
+  font-size: 32px;
+}
+
+#about p {
+  line-height: 1.5em;
+  margin: 30px 15px 25px 15px;
+}
