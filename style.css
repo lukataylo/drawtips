@@ -1,4 +1,5 @@
 /* Draw.tips Stylesheet v1.0 by Luka Dadiani */
+@import url('https://fonts.googleapis.com/css?family=Life+Savers');
 
 body {
   background-color: #F8F8F8;
@@ -97,7 +98,7 @@ nav ul li a:hover {
   margin-top: -50px;
   width: 100%;
   height: auto;
-  max-width: 800p ;
+  max-width: 800px;
 }
 
 /* LESSONS SECTION */
