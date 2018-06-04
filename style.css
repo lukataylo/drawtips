@@ -119,7 +119,7 @@ nav ul li a:hover {
 
 .lesson {
   width: 100%;
-  min-height: 40px;
+  min-height: 50px;
   text-align: left;
   padding: 5px 15px 5px 10px;
   margin: 20px 10px;
@@ -131,11 +131,13 @@ nav ul li a:hover {
 
 .lesson h2 {
   margin-left: 15px;
+  float: left;
+
 }
 
 .lesson-soon {
   width: 100%;
-  min-height: 40px;
+  min-height: 50px;
   text-align: left;
   padding: 5px 15px 5px 10px;
   margin: 20px 10px;
@@ -150,16 +152,41 @@ nav ul li a:hover {
 .lesson-content {
   display: inline-block;
   margin: 15px;
-
   display: none;
 }
+
+/* CHEVRON DOWN  */
+.Chevron{
+    position:relative;
+    display:inline-block;
+    float: right;
+    height:20px;/*height should be double border*/
+    margin: 20px 30px;
+}
+.Chevron:before,
+.Chevron:after{
+    position:absolute;
+    display:block;
+    content:"";
+    border:10px solid transparent;/*adjust size*/
+}
+/* Replace all text `top` below with left/right/bottom to rotate the chevron */
+.Chevron:before{
+    top:0;
+    border-top-color:#596981;/*Chevron Color*/
+}
+.Chevron:after{
+    top:-3px;/*adjust thickness*/
+    border-top-color:#fff;/*Match background colour*/
+}
+
 
 /* About Section */
 
 #about {
   text-align: center;
   margin: 0 auto;
-  max-width: 400px;
+  max-width: 450px;
   margin-bottom: 100px;
 }
 
