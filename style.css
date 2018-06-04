@@ -3,7 +3,7 @@
 
 body {
   background-color: #F8F8F8;
-  font-family: 'Life Savers', cursive;
+  font-family: 'Life Savers';
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -76,7 +76,7 @@ nav ul li {
 }
 
 nav ul li a {
-  font-family: LifeSavers-ExtraBold;
+  font-family: 'Life Savers', helvetica, arial, sans-serif;
   font-size: 14px;
   color: #596981;
   letter-spacing: 1.75px;
