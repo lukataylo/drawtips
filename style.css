@@ -119,11 +119,13 @@ nav ul li a:hover {
 }
 
 .lesson {
-  width: 90%;
+  width: 85%;
   min-height: 50px;
   text-align: left;
   padding: 5px 15px 5px 10px;
-  margin: 20px 10px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
   background: #FFFFFF;
   border: 1px solid #EFEFEF;
   box-shadow: 0 0 21px 0 rgba(89,105,129,0.24);
@@ -137,11 +139,13 @@ nav ul li a:hover {
 }
 
 .lesson-soon {
-  width: 90%;
+  width: 85%;
   min-height: 50px;
   text-align: left;
   padding: 5px 15px 5px 10px;
-  margin: 20px 10px;
+  margin: 0 auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
   border: 2px dashed #596981;
   border-radius: 6px;
 }
@@ -155,6 +159,8 @@ nav ul li a:hover {
   margin: 15px;
   display: none;
 }
+
+
 
 /* CHEVRON DOWN  */
 .Chevron{
@@ -198,4 +204,13 @@ nav ul li a:hover {
 #about p {
   line-height: 1.5em;
   margin: 30px 15px 25px 15px;
+}
+
+
+/* RESPONSIVE STYLESHEET */
+
+@media only screen and (max-width: 600px) {
+  .Chevron {
+    display: none;
+  }
 }
