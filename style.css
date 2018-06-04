@@ -57,6 +57,7 @@ h2 a, p a {
 .logo {
   float: left;
   display: inline-block;
+  margin-left: 15px;
 }
 
 nav {
@@ -118,7 +119,7 @@ nav ul li a:hover {
 }
 
 .lesson {
-  width: 100%;
+  width: 90%;
   min-height: 50px;
   text-align: left;
   padding: 5px 15px 5px 10px;
@@ -136,7 +137,7 @@ nav ul li a:hover {
 }
 
 .lesson-soon {
-  width: 100%;
+  width: 90%;
   min-height: 50px;
   text-align: left;
   padding: 5px 15px 5px 10px;
