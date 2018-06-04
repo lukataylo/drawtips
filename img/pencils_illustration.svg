@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="800px" height="600px" viewBox="0 0 800 600" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="798px" height="345px" viewBox="0 0 798 345" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
     <title>Illsutration</title>
     <desc>Created with Sketch.</desc>
@@ -12,13 +12,12 @@
         <path d="M66.5,176.5 C55,170.5 49,150.5 34,144.5 C19,138.5 -6,129 2.5,90.5 C11,52 21,70.5 35.5,42 C50,13.5 48,0.5 72,1 C96,1.5 111,32 113,47.5 C115,63 116,70 121.5,76.5 C127,83 157.5,97 158,122 C158.5,147 136,175 107,179 C78,183 78,182.5 66.5,176.5 Z" id="path-11"></path>
     </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Website" transform="translate(-320.000000, -130.000000)">
-            <g id="Header" style="mix-blend-mode: darken;" transform="translate(320.000000, 130.000000)">
-                <g id="Illo">
+        <g id="Website" transform="translate(-320.000000, -208.000000)">
+            <g id="Header" style="mix-blend-mode: darken;" transform="translate(321.000000, 140.000000)">
+                <g id="Illo" transform="translate(0.000000, 69.000000)">
                     <g id="Illsutration">
-                        <rect id="BG" fill="#FFFFFF" x="0" y="0" width="800" height="600"></rect>
-                        <path d="M21.5,402.5 L786.5,402.5" id="Ground" stroke="#ECEDF4" stroke-width="1.5" stroke-linecap="square"></path>
-                        <g id="Middle_building" transform="translate(140.000000, 101.000000)">
+                        <path d="M20.5,323.5 L785.5,323.5" id="Ground" stroke="#ECEDF4" stroke-width="1.5" stroke-linecap="square"></path>
+                        <g id="Middle_building" transform="translate(139.000000, 22.000000)">
                             <g id="Middle_building_bg" transform="translate(2.000000, 0.000000)">
                                 <polygon fill="#F4F5F8" points="491.5 301 491.5 28.4705357 1.5 51.5 1.5 301.000503"></polygon>
                                 <path d="M1.5,2.5 L1.5,301.560195" id="Left" stroke="#F4F5F8" stroke-linecap="square"></path>
@@ -105,7 +104,7 @@
                             </g>
                             <rect id="Shelf" stroke="#FFFFFF" fill="#F4F5F8" x="232" y="235" width="218" height="10"></rect>
                         </g>
-                        <g id="Man_2" transform="translate(510.000000, 192.000000)">
+                        <g id="Man_2" transform="translate(509.000000, 113.000000)">
                             <polygon id="Path-27" fill="#FF957C" points="118.5 217.5 122 215.5 126 220.5 123 223"></polygon>
                             <polygon id="Path-28" fill="#FF957C" points="16.5 214 19.5 217 17 219.5 14.5 217"></polygon>
                             <path d="M118.5,218.5 C117,218.5 85,189.5 76.5,149.5 L20.5,217 L15,214 L73.5,118 L97.5,118 C92.8333333,152.666667 101.5,184.833333 123.5,214.5 C121.166667,217.166667 119.5,218.5 118.5,218.5 Z" id="trousers_bg" fill="#3D4166"></path>
@@ -122,7 +121,7 @@
                             <polygon id="Path-33" fill="#ED6742" points="99.5 18.5 101.5 15.5 103 24.5 99.5 25.5"></polygon>
                             <path d="M93.5,30 C99.1666667,29.6666667 102.333333,30.1666667 103,31.5 C102.333333,33.5 100.666667,34.3333333 98,34 C95.3333333,33.6666667 93.8333333,32.3333333 93.5,30 Z" id="Path-34" fill="#FFFFFF"></path>
                         </g>
-                        <g id="Pencil" transform="translate(195.000000, 254.000000)">
+                        <g id="Pencil" transform="translate(194.000000, 175.000000)">
                             <g id="Eraser_main" transform="translate(0.000000, 3.000000)">
                                 <mask id="mask-6" fill="white">
                                     <use xlink:href="#path-5"></use>
@@ -159,7 +158,7 @@
                                 <ellipse id="Oval-4-Copy-2" fill="#FFDFC3" cx="8.38709677" cy="43.3173077" rx="8.38709677" ry="8.66346154"></ellipse>
                             </g>
                         </g>
-                        <g id="Left_brick_building" transform="translate(1.000000, 104.000000)">
+                        <g id="Left_brick_building" transform="translate(0.000000, 25.000000)">
                             <path d="M79,55.5 C79,57.1666667 67.3333333,138.333333 44,299 L79,299 C79,135 79,53.8333333 79,55.5 Z" id="Shadow" fill="#F4F5F8" opacity="0.50220788"></path>
                             <path d="M6.5,250.5 L6.5,263.5" id="Line" stroke="#ECEDF4" stroke-width="1.5" stroke-linecap="square"></path>
                             <path d="M50.5,263.5 L1.5,263.5" id="Line" stroke="#ECEDF4" stroke-width="1.5" stroke-linecap="square"></path>
@@ -179,7 +178,7 @@
                             <path d="M42.5,127.5 L78.5,127.5" id="Line" stroke="#ECEDF4" stroke-width="1.5" stroke-linecap="square"></path>
                             <path d="M54.5,119.5 L54.5,127.5" id="Line" stroke="#ECEDF4" stroke-width="1.5" stroke-linecap="square"></path>
                         </g>
-                        <g id="Tree" transform="translate(639.000000, 79.000000)">
+                        <g id="Tree" transform="translate(638.000000, 0.000000)">
                             <g id="Pot" transform="translate(42.000000, 286.000000)">
                                 <path d="M5,9 L41,9 C37,12.3333333 31.1666667,14 23.5,14 C12,14 21.5,23.5 15,27.5 C10.6666667,30.1666667 8.5,31.8333333 8.5,32.5 L5,9 Z" id="Pot_shadow" fill="#F4F5F8"></path>
                                 <polygon id="Pot_base" stroke="#EBECF5" points="4.5 8.75 10.5 37.5 43.5037877 37.5 51 8.75"></polygon>
@@ -226,7 +225,7 @@
                                 </g>
                             </g>
                         </g>
-                        <g id="Man_1" transform="translate(143.000000, 195.000000)">
+                        <g id="Man_1" transform="translate(142.000000, 116.000000)">
                             <path d="M110.5,213.5 C110.5,213.5 111.333333,214.666667 113,217 L116.5,214 L112.5,210.5 C111.166667,212.5 110.5,213.5 110.5,213.5 Z" id="Path-23" fill="#FFC04D"></path>
                             <polygon id="Path-24" fill="#FFC04D" points="8 211.5 5 216 7 218.5 11.5 214"></polygon>
                             <path d="M6,211.5 C6,211.5 25,182 28,169.5 C31,157 32.5,132 32.5,114.5 L56.5051015,114.5 L115,210 L110,214 L53,148.5 C40.6666667,179.166667 27,201.333333 12,215 C8,212.666667 6,211.5 6,211.5 Z" id="Trousers_bg" fill="#3D4166"></path>
@@ -240,7 +239,7 @@
                             <path d="M46,32.5 L48.5,29.5 C47.5,28.5 46.8333333,27.6666667 46.5,27 C46,26 43.5,21.5 47,21 C49.3333333,20.6666667 50.3333333,22 50,25 L53.5,25 L52,17.5 L52.5,15.5 L63.5,11 L70.5,11.5 L66,4 L59.5,3.5 C57.8333333,1.16666667 56.6666667,0.166666667 56,0.5 C55.3333333,0.833333333 52.6666667,1.16666667 48,1.5 L41.5,7.5 L40.5,12.5 L40.5,15.5 L43,20 L42.5,27.5 L46,32.5 Z" id="hair" fill="#414469"></path>
                             <polygon id="Path-25" fill="#EF6B42" points="69 21 72 26.5 69 28"></polygon>
                         </g>
-                        <path d="M604.5,266 C604.5,278.333333 603.166667,286 600.5,289 C597.833333,292 589.333333,298.833333 575,309.5 L566,309.5 C568.666667,306.833333 570.5,305.5 571.5,305.5 C573,305.5 575,305.5 575.5,305 C576,304.5 591.5,289 592,286.5 C592.5,284 594.5,275.5 594.5,272.5 C594.5,270.5 594.333333,267.666667 594,264 L604.5,266 Z" id="hand_top" fill="#FF957C"></path>
+                        <path d="M603.5,187 C603.5,199.333333 602.166667,207 599.5,210 C596.833333,213 588.333333,219.833333 574,230.5 L565,230.5 C567.666667,227.833333 569.5,226.5 570.5,226.5 C572,226.5 574,226.5 574.5,226 C575,225.5 590.5,210 591,207.5 C591.5,205 593.5,196.5 593.5,193.5 C593.5,191.5 593.333333,188.666667 593,185 L603.5,187 Z" id="hand_top" fill="#FF957C"></path>
                     </g>
                 </g>
             </g>

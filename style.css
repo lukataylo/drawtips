@@ -86,25 +86,35 @@ nav ul li a:hover {
   color: #FFAC00;
 }
 
+.hero h1 {
+  z-index: 10;
+}
+
 .hero {
   text-align: center;
   margin: 0 auto;
   margin-top: 100px;
-  margin-bottom: -100px;
 }
 
 .hero img {
   margin: 0 auto;
-  margin-top: -50px;
+  margin-top: 20px;
   width: 100%;
   height: auto;
   max-width: 800px;
+  z-index: -10;
+  display: inline-block;
 }
 
 /* LESSONS SECTION */
 
 .lessons {
   margin-bottom: 60px;
+  display: inline-block;
+  z-index: 10;
+  clear: both;
+  width: 100%;
+  margin-top: 50px;
 }
 
 .lesson {
