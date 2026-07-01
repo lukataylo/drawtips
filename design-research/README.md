@@ -54,6 +54,40 @@ poster energy, strongest differentiation.
 
 ![Option C](screenshots/option-c.png)
 
+## Round 2 — Option C font-stack variants
+
+Option C's layout won; these three keep its bones (flat ink ground, amber accent,
+strike-through headline, 00–03 curriculum rows) and change only the type system.
+Font-pairing research (dark-background legibility, burned-font list, 2025-26 trends) is in
+[04-font-pairings.md](04-font-pairings.md).
+
+### Option C1 — "The Salon" (professional & elegant) · [options/option-c1-salon.html](options/option-c1-salon.html)
+**Fraunces** (600, optical size maxed) + **Hanken Grotesk**. Warm old-style luxury — an
+etching-folio poster. Lesson numbers become italic plate numbers ("No. 0"). Fraunces' chunky
+low-contrast strokes hold their shape at 68px on navy where thin didones (Playfair, Cormorant)
+sparkle and drop out.
+
+![Option C1](screenshots/option-c1.png)
+
+### Option C2 — "The Gallery" (creative & cutting-edge) · [options/option-c2-gallery.html](options/option-c2-gallery.html)
+**Syne** (800) + **Familjen Grotesk** + **Fragment Mono** for eyebrows, nav, meta and lesson
+numbers. Syne's letters widen as they embolden — French art-center poster energy — and the
+mono-as-editorial-accent is the current type-studio move.
+
+![Option C2](screenshots/option-c2.png)
+
+### Option C3 — "The Silkscreen" (variable width-axis) · [options/option-c3-silkscreen.html](options/option-c3-silkscreen.html)
+**Archivo** — one variable file spanning width 62–125% — display set Expanded-125 Black
+uppercase, body at normal width, plus **IBM Plex Mono** numbers. The "one family stretched
+across its width axis" trick is the clearest "we know variable fonts" signal; expanded heavy
+grotesks are the best-case scenario on dark (huge counters, zero hairlines).
+
+![Option C3](screenshots/option-c3.png)
+
+Grid overlays: [option-c1-grid.png](screenshots/option-c1-grid.png) ·
+[option-c2-grid.png](screenshots/option-c2-grid.png) ·
+[option-c3-grid.png](screenshots/option-c3-grid.png)
+
 ### How each option dodges the checklist
 
 All three: no purple, no gradients, no pill badge, no emoji icons, no 3-card feature grid, no
