@@ -3,82 +3,225 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Draw.tips | Learn How to Draw Today</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css">
-  <link href="https://fonts.googleapis.com/css?family=Life+Savers|Open+Sans" rel="stylesheet">
+  <title>Draw.tips — Learn to Draw in 15 Minutes a Day</title>
+  <meta name="description" content="A free, no-overwhelm drawing course for absolute beginners. Five short lessons, a built-in practice timer, daily prompts, and printable worksheets. Start drawing today.">
+  <meta property="og:title" content="Draw.tips — Learn to Draw in 15 Minutes a Day">
+  <meta property="og:description" content="Five short lessons, a practice timer, daily prompts, and printable worksheets. The simplest way to start drawing.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://draw.tips/">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;600;700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div id="main">
 
-    <!-- HEADER -->
-    <div class="head">
-      <div class="logo"><img src="img/logo.svg" alt="Draw.tips logo"></div>
-      <nav>
-        <ul>
-          <!-- <li><a href=".lessons">LESSONS</a></li> -->
-          <li><a href="#about">ABOUT</a></li>
-        </ul>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="index.html"><img src="img/logo.svg" alt="Draw.tips"></a>
+      <nav class="site-nav" aria-label="Main">
+        <a href="lessons/index.html">Lessons</a>
+        <a href="practice.html">Practice Room</a>
+        <a href="worksheets.html">Worksheets</a>
+        <a href="#about">About</a>
+        <a class="nav-cta" href="lessons/01-you-can-learn-to-draw.html">Start Lesson 1</a>
       </nav>
     </div>
+  </header>
 
-    <!-- HERO IMAGE -->
-    <div class="hero">
-      <h1>The simple way <strong>learn</strong> how to <strong>Draw</strong></h1>
-      <img src="img/pencils_illustration.svg" alt="Two men carrying a pencil">
-    </div>
+  <main>
 
-    <!-- LESSONS -->
-    <div class="lessons">
-      <div class="lesson">
-        <h2>Lesson 0: Why learn to draw</h2> <i class="Chevron"></i>
+    <!-- HERO -->
+    <section class="hero wrap">
+      <h1>The simple way to <strong>learn</strong> how to <strong>draw</strong></h1>
+      <p class="lede">
+        Drawing is a skill, not a talent — and you can learn it the same way you'd learn to
+        type or ride a bike: a little theory, and lots of short, focused practice.
+        Draw.tips gives you exactly that. Five short lessons, a practice timer,
+        and printable worksheets. No sign-up, no fluff, free.
+      </p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="lessons/01-you-can-learn-to-draw.html">Start Lesson 1 — it takes 10 minutes</a>
+        <a class="btn btn-secondary" href="practice.html">Open the Practice Room</a>
+      </div>
+      <div class="hero-art">
+        <img src="img/pencils_illustration.svg" alt="Illustration of two people carrying a giant pencil" loading="lazy">
+      </div>
+      <p class="hero-proofline">All you need: any pencil, any paper, 15 minutes a day.</p>
+    </section>
 
-        <div class="lesson-content">
-        <p>Drawing is often used for therpay and relxation. Creating something from nothing helps us feel productive and like we are getting something done. But more importantly drawing develops our visual coretex and helps us be better designers and thinkers.</p>
-        <h3></h3>
+    <!-- WHY THIS EXISTS -->
+    <section class="section section-alt">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="kicker">Why Draw.tips</span>
+          <h2>Most beginners don't quit drawing.<br>They quit <strong>choosing tutorials</strong>.</h2>
+          <p>
+            There are thousands of drawing tutorials out there, and that's the problem:
+            "where do I even start?" is the most common question new artists ask.
+            Draw.tips removes the choice. One path, in order, with the practice built in.
+          </p>
+        </div>
+        <div class="card-grid">
+          <div class="card">
+            <span class="step-num">1</span>
+            <h3>Read a short lesson</h3>
+            <p>Each lesson is a 5–10 minute read that teaches one core idea — how to see, how to move your arm, how to build forms. No hour-long videos.</p>
+          </div>
+          <div class="card">
+            <span class="step-num">2</span>
+            <h3>Do the exercise</h3>
+            <p>Every lesson ends with one concrete exercise. Print the matching worksheet or use blank paper — 10 to 15 minutes and you're done for the day.</p>
+          </div>
+          <div class="card">
+            <span class="step-num">3</span>
+            <h3>Practice daily</h3>
+            <p>The Practice Room gives you a warm-up timer and a drawing prompt of the day, so you always know what to draw — the habit is the skill.</p>
+          </div>
         </div>
       </div>
-      <div class="lesson">
-        <h2>Lesson 1: How to hold a pencil</h2> <i class="Chevron"></i>
-        <div class="lesson-content">
-        <p>
+    </section>
 
+    <!-- CURRICULUM -->
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="kicker">The Course</span>
+          <h2>Five lessons. In order. <strong>That's it.</strong></h2>
+          <p>Work through them at your own pace — one a day, or one a week. Each builds on the last.</p>
+        </div>
+        <div class="lesson-list">
+          <a class="lesson-item" href="lessons/01-you-can-learn-to-draw.html">
+            <span class="lesson-num">1</span>
+            <span>
+              <h3>You Can Learn to Draw</h3>
+              <p>Why drawing is a learnable skill, and the one mental switch that changes everything.</p>
+            </span>
+            <span class="lesson-go" aria-hidden="true">→</span>
+          </a>
+          <a class="lesson-item" href="lessons/02-pencil-control.html">
+            <span class="lesson-num">2</span>
+            <span>
+              <h3>Hold the Pencil, Control the Line</h3>
+              <p>Grips, drawing from the shoulder, and the ghosting technique for confident lines.</p>
+            </span>
+            <span class="lesson-go" aria-hidden="true">→</span>
+          </a>
+          <a class="lesson-item" href="lessons/03-basic-forms.html">
+            <span class="lesson-num">3</span>
+            <span>
+              <h3>Basic Forms</h3>
+              <p>The sphere, box, cylinder and cone — and why everything you'll ever draw is made of them.</p>
+            </span>
+            <span class="lesson-go" aria-hidden="true">→</span>
+          </a>
+          <a class="lesson-item" href="lessons/04-light-and-shadow.html">
+            <span class="lesson-num">4</span>
+            <span>
+              <h3>Light &amp; Shadow</h3>
+              <p>The five elements of shading that turn flat shapes into believable, solid objects.</p>
+            </span>
+            <span class="lesson-go" aria-hidden="true">→</span>
+          </a>
+          <a class="lesson-item" href="lessons/05-perspective.html">
+            <span class="lesson-num">5</span>
+            <span>
+              <h3>Perspective Without Tears</h3>
+              <p>The horizon line, vanishing points, and drawing boxes in space — the gentle version.</p>
+            </span>
+            <span class="lesson-go" aria-hidden="true">→</span>
+          </a>
+          <div class="lesson-item coming-soon">
+            <span class="lesson-num">6+</span>
+            <span>
+              <h3>More lessons in the works</h3>
+              <p>Texture, composition, and drawing from life. Have a request? <a href="mailto:luka@uimotif.com">Suggest a lesson</a>.</p>
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRACTICE TEASER -->
+    <section class="section section-alt">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="kicker">Daily Practice</span>
+          <h2>Never wonder <strong>what to draw</strong> again</h2>
+          <p>
+            Lessons teach you how to draw; practice makes it stick. The Practice Room has
+            two free tools that working artists use every day, built right into the site.
+          </p>
+        </div>
+        <div class="card-grid">
+          <div class="card">
+            <h3>⏱ Warm-up Timer</h3>
+            <p>A guided warm-up session: the timer calls out line, ellipse and box exercises in timed rounds, just like a gesture-drawing class. Pick 5, 10 or 15 minutes and go.</p>
+          </div>
+          <div class="card">
+            <h3>🎲 Prompt of the Day</h3>
+            <p>One drawing prompt every day, the same for everyone — plus a shuffle button when you want more. Small, concrete subjects matched to the skills from the lessons.</p>
+          </div>
+          <div class="card">
+            <h3>🖨 Printable Worksheets</h3>
+            <p>Guided practice sheets for lines, ellipses and boxes that you can print at home. Trace, repeat, and watch your lines straighten out within a week.</p>
+          </div>
+        </div>
+        <p style="text-align:center; margin-top:30px;">
+          <a class="btn btn-primary" href="practice.html">Open the Practice Room</a>
         </p>
+      </div>
+    </section>
+
+    <!-- EMAIL SIGNUP -->
+    <section class="section">
+      <div class="wrap">
+        <div class="signup">
+          <h2>Get new lessons by email</h2>
+          <p>
+            One short email when a new lesson or worksheet is published — usually once or twice
+            a month. No spam, unsubscribe anytime.
+          </p>
+          <!-- Hook this form to your email provider (Buttondown, ConvertKit, Mailchimp…)
+               by replacing the action URL below with your provider's embed endpoint. -->
+          <form class="signup-form" action="https://buttondown.com/api/emails/embed-subscribe/drawtips" method="post" target="_blank">
+            <input type="email" name="email" placeholder="you@example.com" required aria-label="Email address">
+            <button class="btn btn-primary" type="submit">Subscribe</button>
+            <p class="form-note">Prefer not to share your email? All lessons are free right here on the site.</p>
+          </form>
         </div>
       </div>
-      <div class="lesson">
-        <h2>Lesson 2: Basic forms</h2> <i class="Chevron"></i>
-        <div class="lesson-content">
-        <p>
-
-        </p>
-        </div>
-      </div>
-      <div class="lesson">
-        <h2>Lesson 3: Complex forms</h2> <i class="Chevron"></i>
-        <div class="lesson-content">
-        <p>
-
-        </p>
-        </div>
-      </div>
-
-      <div class="lesson-soon">
-        <h2>More Lessons Coming Soon. Have ideas? Suggest them <a href="mailto: luka@uimotif.com">here</a> </h2>
-      </div>
-    </div>
+    </section>
 
     <!-- ABOUT -->
-    <div id="about">
-      <img src="img/avatar.png" alt="Luka avatar" height="240" width="240">
-      <h1>About <strong>The Author</strong></h1>
-      <p>
-        Hi my name is Luka, I wrote this guide in an effort consolidate, everything I have been learning about drawing so far. There is a lot of information out there and plenty of choice when it comes to drawing tutorials, but sometimes this can get overwhelming. I hope this small guide helps you make a start and learn how to draw.how to draw.
-      </p>
-    </div>
+    <section id="about" class="section section-tight">
+      <div class="wrap about">
+        <img src="img/avatar.png" alt="Portrait of Luka" width="160" height="160">
+        <h2>About <strong>the author</strong></h2>
+        <p>
+          Hi, I'm Luka. I wrote this guide to consolidate everything I've learned about
+          drawing so far. There's a lot of information out there and plenty of choice when
+          it comes to drawing tutorials — but sometimes that choice is exactly what makes
+          starting so hard. I hope this small, focused guide helps you skip the overwhelm
+          and just start drawing.
+        </p>
+        <p><a href="mailto:luka@uimotif.com">Say hello →</a></p>
+      </div>
+    </section>
 
-  </div>
-  <!-- END MAIN -->
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <span>© 2026 Draw.tips · Made with a 2B pencil</span>
+      <span>
+        <a href="lessons/index.html">Lessons</a>
+        <a href="practice.html">Practice Room</a>
+        <a href="worksheets.html">Worksheets</a>
+      </span>
+    </div>
+  </footer>
+
 </body>
 </html>

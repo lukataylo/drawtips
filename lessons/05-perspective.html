@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lesson 5: Perspective Without Tears — Draw.tips</title>
+  <meta name="description" content="A gentle introduction to perspective: the horizon line, one-point and two-point perspective, and how to draw boxes that sit convincingly in space.">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;600;700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="../index.html"><img src="../img/logo.svg" alt="Draw.tips"></a>
+      <nav class="site-nav" aria-label="Main">
+        <a href="index.html">Lessons</a>
+        <a href="../practice.html">Practice Room</a>
+        <a href="../worksheets.html">Worksheets</a>
+        <a href="../index.html#about">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="article wrap">
+    <div class="article-body">
+      <span class="kicker">Lesson 5 of 5</span>
+      <h1>Perspective Without Tears</h1>
+      <p class="article-meta">10 minute read · Needs: pencil, paper, a ruler (training wheels — allowed for now)</p>
+
+      <p>
+        Perspective has a scary reputation: diagrams full of rulers and criss-crossing
+        lines. But the core of it is one friendly idea you already know from real life:
+        <strong>things look smaller as they get farther away.</strong> Perspective drawing
+        is just being consistent about it. You need exactly three concepts.
+      </p>
+
+      <h2>Concept 1: the horizon line is your eye level</h2>
+      <p>
+        The horizon line isn't really about the horizon — it's the height of
+        <em>your eyes</em>, drawn across the page. Everything below your eye level, you
+        see the top of (look down at a mug on your desk). Everything above it, you see
+        the underside of (look up at a shelf). Things exactly at eye level show you
+        neither. Before drawing any scene, draw one light horizontal line and decide:
+        this is where my eyes are.
+      </p>
+
+      <h2>Concept 2: parallel lines converge to a vanishing point</h2>
+      <p>
+        Stand on straight train tracks (in your imagination, please) and the two rails —
+        which never actually get closer — appear to meet at a dot on the horizon. That dot
+        is a <strong>vanishing point</strong>. Every set of parallel horizontal lines in
+        your scene shares one vanishing point somewhere on the horizon line.
+      </p>
+
+      <figure class="figure">
+        <svg viewBox="0 0 640 240" role="img" aria-label="One-point and two-point perspective diagrams showing boxes with edges converging to vanishing points on a horizon line">
+          <g font-family="Open Sans, sans-serif" font-size="13" fill="#8593a8">
+            <!-- ONE POINT -->
+            <line x1="20" y1="80" x2="300" y2="80" stroke="#8593a8" stroke-width="1.5"/>
+            <circle cx="160" cy="80" r="4" fill="#ffac00"/>
+            <text x="160" y="68" text-anchor="middle" fill="#e08900">VP</text>
+            <text x="26" y="72">horizon (eye level)</text>
+            <!-- box front face -->
+            <g stroke="#596981" stroke-width="2.5" fill="none">
+              <rect x="60" y="120" width="80" height="70"/>
+              <!-- converging edges -->
+              <path d="M140 120 L188 100 M60 120 L128 92 M140 190 L196 148"/>
+              <path d="M128 92 L188 100 M188 100 L196 148"/>
+            </g>
+            <g stroke="#d9ac60" stroke-width="1" stroke-dasharray="4 4">
+              <path d="M140 120 L160 80 M60 120 L160 80 M140 190 L160 80 M60 190 L160 80"/>
+            </g>
+            <text x="150" y="225" text-anchor="middle">One-point: flat side faces you</text>
+
+            <!-- TWO POINT -->
+            <line x1="330" y1="80" x2="630" y2="80" stroke="#8593a8" stroke-width="1.5"/>
+            <circle cx="345" cy="80" r="4" fill="#ffac00"/>
+            <circle cx="615" cy="80" r="4" fill="#ffac00"/>
+            <text x="345" y="68" text-anchor="middle" fill="#e08900">VP1</text>
+            <text x="615" y="68" text-anchor="middle" fill="#e08900">VP2</text>
+            <!-- box: vertical front edge -->
+            <g stroke="#596981" stroke-width="2.5" fill="none">
+              <path d="M480 105 L480 195"/>
+              <path d="M480 105 L410 122 L410 185 L480 195"/>
+              <path d="M480 105 L560 125 L560 183 L480 195"/>
+              <path d="M410 122 L462 112 M462 112 L560 125" stroke-width="2"/>
+            </g>
+            <g stroke="#d9ac60" stroke-width="1" stroke-dasharray="4 4">
+              <path d="M480 105 L345 80 M480 195 L345 80 M480 105 L615 80 M480 195 L615 80"/>
+            </g>
+            <text x="485" y="225" text-anchor="middle">Two-point: corner faces you</text>
+          </g>
+        </svg>
+        <figcaption>Left: one-point perspective. Right: two-point. Dashed lines run to the vanishing points.</figcaption>
+      </figure>
+
+      <h2>Concept 3: you only need one or two points (for now)</h2>
+      <p>
+        <strong>One-point perspective</strong> is for when you face an object (or a street)
+        head-on. The front face is a plain flat rectangle; every depth edge runs to the
+        single vanishing point. This is the perspective of corridors, roads and railway
+        tracks.
+      </p>
+      <p>
+        <strong>Two-point perspective</strong> is for when you face an object's
+        <em>corner</em> — the way you see most things most of the time. Vertical edges stay
+        vertical; each of the two visible sides has its own vanishing point, far apart on
+        the horizon. Push the points wide — vanishing points too close together is the
+        classic mistake that makes boxes look like fisheye-lens distortions.
+      </p>
+
+      <div class="callout">
+        <p><strong>Connection to Lesson 3:</strong> remember how your freehand boxes had
+        depth edges that "gently converge"? Perspective is the rule you were already
+        approximating. Freehand construction and ruler-perfect perspective are the same
+        skill at two levels of precision — artists mostly eyeball it and reach for the
+        ruler only when precision matters.</p>
+      </div>
+
+      <h2>Reading the world</h2>
+      <p>
+        The fastest way to internalise perspective isn't drawing — it's noticing. Sitting
+        anywhere, find your eye level on the wall opposite. Notice how the top of a door
+        slopes down toward the horizon while the skirting board slopes up. Hold your
+        pencil at arm's length to compare angles against horizontal. Two minutes of this
+        wherever you're bored and perspective stops being theory and becomes something
+        you can see.
+      </p>
+
+      <div class="exercise">
+        <h3>Exercise: a small city</h3>
+        <p>20 minutes, ruler allowed today, freehand encouraged tomorrow.</p>
+        <ol>
+          <li><strong>One-point warm-up (5 min):</strong> horizon line, one VP. Draw five rectangles around the page and project each back to the VP. Cut the far ends off — you've got boxes floating in a room.</li>
+          <li><strong>Two-point boxes (10 min):</strong> new page, horizon line, two VPs at the very edges of the paper. Draw vertical front edges in different spots — above, below and crossing the horizon — and build each into a box using the VPs. Notice how boxes above eye level show their bottoms, boxes below show their tops.</li>
+          <li><strong>Make it a city (5 min):</strong> pick your favourite boxes and dress them as buildings: doors, windows and rooflines all obeying the same two VPs.</li>
+        </ol>
+        <p style="margin-top:0.8em;">
+          Congratulations — that page is your diploma. You now know the full foundation:
+          seeing, line control, form, light, and space. Head to the
+          <a href="index.html">30-day plan</a> to turn it into a skill.
+        </p>
+      </div>
+
+      <div class="callout">
+        <p><strong>Course complete!</strong> The theory phase is over. From here it's
+        daily reps: warm up in the <a href="../practice.html">Practice Room</a>, draw the
+        prompt of the day, and be kind to your bad drawings. New lessons are coming —
+        <a href="../index.html#about">get them by email</a>.</p>
+      </div>
+    </div>
+
+    <nav class="lesson-pager" aria-label="Lesson navigation">
+      <a class="btn btn-secondary btn-small" href="04-light-and-shadow.html">← Lesson 4</a>
+      <a class="btn btn-primary btn-small" href="../practice.html">Go practice →</a>
+    </nav>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <span>© 2026 Draw.tips · Made with a 2B pencil</span>
+      <span>
+        <a href="index.html">Lessons</a>
+        <a href="../practice.html">Practice Room</a>
+        <a href="../worksheets.html">Worksheets</a>
+      </span>
+    </div>
+  </footer>
+
+</body>
+</html>

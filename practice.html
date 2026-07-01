@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Practice Room — Draw.tips</title>
+  <meta name="description" content="Free daily drawing practice tools: a guided warm-up timer that calls out exercises, and a drawing prompt of the day. No sign-up needed.">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;600;700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="index.html"><img src="img/logo.svg" alt="Draw.tips"></a>
+      <nav class="site-nav" aria-label="Main">
+        <a href="lessons/index.html">Lessons</a>
+        <a href="practice.html" aria-current="page">Practice Room</a>
+        <a href="worksheets.html">Worksheets</a>
+        <a href="index.html#about">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="kicker">Daily Practice</span>
+          <h1>The <strong>Practice Room</strong></h1>
+          <p>
+            Fifteen minutes here every day beats a three-hour session once a month.
+            Warm up first, then draw the prompt. Grab paper and a pencil — the timer
+            does the thinking for you.
+          </p>
+        </div>
+
+        <!-- WARM-UP TIMER -->
+        <div class="tool-panel">
+          <h2 style="text-align:center;">⏱ Warm-up Timer</h2>
+          <p style="text-align:center; margin:0 auto 6px;" class="muted">
+            One exercise per minute, called out as you go — like a gesture class for line control.
+            The exercises come straight from <a href="lessons/02-pencil-control.html">Lesson 2</a>
+            and <a href="lessons/03-basic-forms.html">Lesson 3</a>.
+          </p>
+          <div class="duration-picker" role="group" aria-label="Session length">
+            <button type="button" data-minutes="5" aria-pressed="true">5 min</button>
+            <button type="button" data-minutes="10" aria-pressed="false">10 min</button>
+            <button type="button" data-minutes="15" aria-pressed="false">15 min</button>
+          </div>
+          <div class="timer-display" id="timer-display" aria-live="off">1:00</div>
+          <div class="timer-exercise" id="timer-exercise" aria-live="polite"></div>
+          <div class="timer-progress" id="timer-progress"></div>
+          <div class="tool-controls">
+            <button class="btn btn-primary" id="timer-start" type="button">Start warm-up</button>
+            <button class="btn btn-secondary" id="timer-reset" type="button">Reset</button>
+          </div>
+        </div>
+
+        <!-- PROMPT OF THE DAY -->
+        <div class="tool-panel">
+          <h2 style="text-align:center;">🎲 Prompt of the Day</h2>
+          <p style="text-align:center; margin:0 auto 6px;" class="muted">
+            One prompt per day, the same for everyone drawing along today.
+            Draw it from life if you can, from a photo if you can't, from
+            imagination if you're feeling brave.
+          </p>
+          <div class="prompt-box">
+            <span class="prompt-label" id="prompt-label">Prompt of the day</span>
+            <p class="prompt-text" id="prompt-text">Loading…</p>
+          </div>
+          <div class="tool-controls">
+            <button class="btn btn-secondary" id="prompt-shuffle" type="button">Shuffle a new prompt</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt section-tight">
+      <div class="wrap">
+        <div class="section-head" style="margin-bottom:18px;">
+          <h2>How to use this page</h2>
+        </div>
+        <div class="card-grid">
+          <div class="card">
+            <h3>1 · Warm up (5 min)</h3>
+            <p>Loose arm, ghosted lines, no judgment. The warm-up page is meant to look like scribbles — it's a stretch, not a drawing.</p>
+          </div>
+          <div class="card">
+            <h3>2 · Draw the prompt (10 min)</h3>
+            <p>Construct it from basic forms first. One drawing is plenty. Sign and date the page — future you needs the evidence.</p>
+          </div>
+          <div class="card">
+            <h3>3 · Come back tomorrow</h3>
+            <p>The prompt changes at midnight. The habit is the whole secret: nobody wobbles their way through 30 dated pages without improving.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <span>© 2026 Draw.tips · Made with a 2B pencil</span>
+      <span>
+        <a href="lessons/index.html">Lessons</a>
+        <a href="practice.html">Practice Room</a>
+        <a href="worksheets.html">Worksheets</a>
+      </span>
+    </div>
+  </footer>
+
+  <script src="js/practice.js"></script>
+</body>
+</html>

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lesson 4: Light &amp; Shadow — Draw.tips</title>
+  <meta name="description" content="Learn the five elements of shading — highlight, light, core shadow, reflected light and cast shadow — and shade a sphere that looks genuinely solid.">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;600;700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="../index.html"><img src="../img/logo.svg" alt="Draw.tips"></a>
+      <nav class="site-nav" aria-label="Main">
+        <a href="index.html">Lessons</a>
+        <a href="../practice.html">Practice Room</a>
+        <a href="../worksheets.html">Worksheets</a>
+        <a href="../index.html#about">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="article wrap">
+    <div class="article-body">
+      <span class="kicker">Lesson 4 of 5</span>
+      <h1>Light &amp; Shadow</h1>
+      <p class="article-meta">9 minute read · Needs: a soft pencil (2B or softer), paper, a lamp and any round object</p>
+
+      <p>
+        Everything you see, you see because of light. There are no outlines in the real
+        world — just areas of light and shadow meeting each other. So once you can draw
+        forms (Lesson 3), shading is what makes them <em>real</em>: it tells the viewer
+        where the light is, how solid the object is, and even what it's made of.
+      </p>
+      <p>
+        The best part: light follows rules. You don't have to guess where shadows go —
+        you can work them out. Learn the pattern once on a sphere, and you'll recognise
+        it on faces, fruit, cars and clouds forever.
+      </p>
+
+      <h2>The five elements of shading</h2>
+      <p>Put a ball on a table with one light source to its upper left. Look closely and you'll find five distinct zones:</p>
+
+      <figure class="figure">
+        <svg viewBox="0 0 560 300" role="img" aria-label="A shaded sphere showing highlight, light, core shadow, reflected light, and cast shadow">
+          <defs>
+            <radialGradient id="ball" cx="35%" cy="30%" r="80%">
+              <stop offset="0%" stop-color="#ffffff"/>
+              <stop offset="28%" stop-color="#d9dee6"/>
+              <stop offset="62%" stop-color="#8593a8"/>
+              <stop offset="82%" stop-color="#4d5b70"/>
+              <stop offset="100%" stop-color="#6c7a8f"/>
+            </radialGradient>
+            <radialGradient id="cast" cx="50%" cy="50%" r="50%">
+              <stop offset="0%" stop-color="#4d5b70"/>
+              <stop offset="70%" stop-color="#8593a8"/>
+              <stop offset="100%" stop-color="#fbf8f2"/>
+            </radialGradient>
+          </defs>
+          <!-- light rays -->
+          <g stroke="#ffac00" stroke-width="2" stroke-linecap="round">
+            <path d="M40 30 L95 75"/><path d="M75 18 L115 62"/><path d="M25 65 L80 98"/>
+          </g>
+          <text x="30" y="20" font-family="Open Sans, sans-serif" font-size="13" fill="#e08900">light source</text>
+          <!-- cast shadow -->
+          <ellipse cx="255" cy="242" rx="130" ry="26" fill="url(#cast)"/>
+          <!-- sphere -->
+          <circle cx="210" cy="150" r="85" fill="url(#ball)"/>
+          <!-- labels -->
+          <g font-family="Open Sans, sans-serif" font-size="13" fill="#596981">
+            <line x1="182" y1="112" x2="360" y2="60" stroke="#8593a8" stroke-width="1"/>
+            <text x="366" y="64">1 · Highlight</text>
+            <line x1="205" y1="150" x2="360" y2="105" stroke="#8593a8" stroke-width="1"/>
+            <text x="366" y="109">2 · Light (halftone)</text>
+            <line x1="262" y1="205" x2="360" y2="152" stroke="#8593a8" stroke-width="1"/>
+            <text x="366" y="156">3 · Core shadow</text>
+            <line x1="248" y1="228" x2="360" y2="198" stroke="#8593a8" stroke-width="1"/>
+            <text x="366" y="202">4 · Reflected light</text>
+            <line x1="310" y1="250" x2="360" y2="244" stroke="#8593a8" stroke-width="1"/>
+            <text x="366" y="248">5 · Cast shadow</text>
+          </g>
+        </svg>
+        <figcaption>The five elements of shading on a sphere. This exact pattern appears on every rounded form in the world.</figcaption>
+      </figure>
+
+      <ol>
+        <li><strong>Highlight</strong> — the brightest spot, where light bounces straight into your eye. On paper: leave it untouched white.</li>
+        <li><strong>Light (halftone)</strong> — the surface facing the light, gradually darkening as it turns away.</li>
+        <li><strong>Core shadow</strong> — the darkest band on the object itself, where the surface has fully turned from the light. Note: it's a <em>band</em>, not the edge — because of…</li>
+        <li><strong>Reflected light</strong> — light bouncing off the table back onto the shadowed underside. It's what makes the bottom edge slightly lighter than the core shadow. This subtle zone is the #1 thing that makes shading look professional.</li>
+        <li><strong>Cast shadow</strong> — the shadow the object throws onto the table: darkest and sharpest right under the object, softer and lighter as it stretches away. It's what anchors the object to the ground instead of floating.</li>
+      </ol>
+
+      <div class="callout">
+        <p><strong>The big beginner mistake:</strong> shading the object's outline
+        darkest and fading inward. Light doesn't work that way. Find the core shadow
+        <em>band</em>, keep the reflected light at the edge, and never outline-shade again.</p>
+      </div>
+
+      <h2>How to actually apply pencil</h2>
+      <p>
+        Use the overhand grip with the side of the lead, and build tone in
+        <strong>layers</strong>: light, even passes, letting darkness accumulate gradually.
+        Keep your strokes close together and consistent in direction, or gently follow the
+        form around its curve. Squint at your subject constantly — squinting blurs detail
+        and shows you the true pattern of light and dark.
+      </p>
+      <p>
+        Before shading any object, make a <strong>value scale</strong>: a strip of five
+        boxes from untouched white to the darkest your pencil can go. This is your
+        palette. Most beginner shading lives timidly in the lightest two values — force
+        yourself to use all five and your drawings will instantly gain punch.
+      </p>
+
+      <div class="exercise">
+        <h3>Exercise: the classic sphere</h3>
+        <p>This is the most famous exercise in art education, because it works. 15–20 minutes.</p>
+        <ol>
+          <li>Draw a five-step value scale and fill it in, white to black.</li>
+          <li>Set up a real light: one lamp, upper left, shining on any round object (orange, egg, ball). Other lights off.</li>
+          <li>Draw a circle (arm swing, Lesson 2). Lightly mark where each of the five zones falls on <em>your</em> object — look, don't guess.</li>
+          <li>Shade in layers: halftones first, then the core shadow band, then the cast shadow. Preserve the highlight and the reflected light.</li>
+          <li>Final pass: squint at the object, then at your drawing. Darken whatever is too timid — it's almost always the core and cast shadows.</li>
+        </ol>
+        <p style="margin-top:0.8em;">
+          Repeat this exercise three times this week with the light in different
+          positions. By the third sphere you'll be seeing the five elements on
+          everything around you — that's the lesson doing its job.
+        </p>
+      </div>
+    </div>
+
+    <nav class="lesson-pager" aria-label="Lesson navigation">
+      <a class="btn btn-secondary btn-small" href="03-basic-forms.html">← Lesson 3</a>
+      <a class="btn btn-primary btn-small" href="05-perspective.html">Lesson 5: Perspective →</a>
+    </nav>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <span>© 2026 Draw.tips · Made with a 2B pencil</span>
+      <span>
+        <a href="index.html">Lessons</a>
+        <a href="../practice.html">Practice Room</a>
+        <a href="../worksheets.html">Worksheets</a>
+      </span>
+    </div>
+  </footer>
+
+</body>
+</html>
