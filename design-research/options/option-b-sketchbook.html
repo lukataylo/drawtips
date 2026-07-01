@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Draw.tips — Option B: The Sketchbook (playful hand-drawn)</title>
+  <link rel="stylesheet" href="fonts-b.css">
+  <style>
+    /* ============================================================
+       OPTION B — "THE SKETCHBOOK"
+       Craft-material metaphors: graph paper, ink, pencil marks.
+       Refs: Victoria Lavine (notebook paper), Root Square
+       (illustrated education), Atoms (one doodle per section),
+       Creator Startup Cohort (numbered curriculum + arrows).
+       Type: Shantell Sans (display) + Nunito Sans (text).
+       Scale: 1.25, base 18px. Graph squares 32px = 4 x 8px grid.
+       Amber = pencil accents + CTA only. No shadows, no gradients.
+       ============================================================ */
+    :root {
+      --ink: #1A273A;
+      --slate-700: #3A4E6B;
+      --slate-500: #596981;
+      --slate-200: #D4DFEF;
+      --slate-100: #EAF1FA;
+      --paper: #FFFFFF;
+      --amber-500: #FFAC00;
+      --amber-600: #DB940D;
+      --amber-800: #885800;
+      --amber-50: #FFF3E4;
+      --go-max: 1200px; --go-margin: 24px; --go-gutter: 24px;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      /* graph paper: 32px squares (4 x 8px baseline) */
+      background-color: var(--paper);
+      background-image:
+        linear-gradient(to right, var(--slate-100) 1px, transparent 1px),
+        linear-gradient(to bottom, var(--slate-100) 1px, transparent 1px);
+      background-size: 32px 32px;
+      color: var(--ink);
+      font-family: 'Nunito Sans', 'Helvetica Neue', Arial, sans-serif;
+      font-size: 18px;
+      line-height: 28px;
+    }
+    .container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+    .grid { display: grid; grid-template-columns: repeat(12, 1fr); gap: 24px; }
+    .display { font-family: 'Shantell Sans', 'Comic Sans MS', cursive; }
+
+    /* ---------- header ---------- */
+    header { padding: 24px 0; }
+    .masthead { display: flex; align-items: center; justify-content: space-between; }
+    .wordmark {
+      font-family: 'Shantell Sans', cursive;
+      font-weight: 800;
+      font-size: 28px;
+      line-height: 32px;
+      color: var(--ink);
+      text-decoration: none;
+    }
+    .wordmark span { color: var(--amber-600); }
+    .masthead nav a {
+      font-weight: 800;
+      font-size: 16px;
+      line-height: 24px;
+      color: var(--slate-700);
+      text-decoration: none;
+      margin-left: 32px;
+    }
+    .masthead nav a:hover { color: var(--ink); }
+    .masthead nav a.pencil-link { border-bottom: 3px solid var(--amber-500); padding-bottom: 2px; }
+
+    /* ---------- hero ---------- */
+    .hero { padding: 64px 0 96px; }
+    .hero-copy { grid-column: 1 / span 6; align-self: center; }
+    .hero-art { grid-column: 7 / span 6; align-self: center; position: relative; }
+    h1 {
+      font-family: 'Shantell Sans', cursive;
+      font-weight: 800;
+      font-size: clamp(2.25rem, 1.5rem + 3vw, 3.5rem);
+      line-height: 1.16;
+      margin-bottom: 24px;
+      max-width: 15ch;
+    }
+    .squiggle {
+      position: relative;
+      white-space: nowrap;
+    }
+    .squiggle svg {
+      position: absolute;
+      left: 0; bottom: -10px;
+      width: 100%; height: 12px;
+    }
+    .lede {
+      font-size: 22px;
+      line-height: 32px;
+      color: var(--slate-700);
+      max-width: 42ch;
+      margin-bottom: 32px;
+    }
+    .btn {
+      display: inline-block;
+      font-family: 'Shantell Sans', cursive;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 24px;
+      background: var(--amber-500);
+      color: var(--ink);
+      padding: 12px 28px;
+      border: 2px solid var(--ink);
+      border-radius: 28px 24px 30px 22px / 24px 28px 22px 30px; /* wobbly, hand-cut */
+      text-decoration: none;
+    }
+    .btn:hover { background: var(--amber-600); }
+    .hint {
+      display: inline-block;
+      font-family: 'Shantell Sans', cursive;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+      color: var(--slate-500);
+      margin-left: 16px;
+      transform: rotate(-2deg);
+    }
+    .hero-art img { width: 100%; height: auto; display: block; }
+    .sticker {
+      position: absolute;
+      top: -16px; right: 8px;
+      font-family: 'Shantell Sans', cursive;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 24px;
+      background: var(--paper);
+      color: var(--ink);
+      border: 2px dashed var(--slate-500);
+      padding: 8px 16px;
+      transform: rotate(4deg);
+    }
+
+    /* ---------- lessons : sketchbook pages ---------- */
+    .lessons { padding: 96px 0; }
+    .lessons-head { grid-column: 1 / span 12; margin-bottom: 48px; }
+    h2 {
+      font-family: 'Shantell Sans', cursive;
+      font-weight: 800;
+      font-size: 36px;
+      line-height: 44px;
+      margin-bottom: 8px;
+    }
+    .lessons-head p { color: var(--slate-700); max-width: 50ch; }
+    .lesson-stack { grid-column: 2 / span 10; }
+    .lesson {
+      background: var(--paper);
+      border: 2px solid var(--ink);
+      border-radius: 8px 6px 10px 6px;
+      margin-bottom: 24px;
+    }
+    .lesson:nth-child(odd)  { transform: rotate(-0.4deg); }
+    .lesson:nth-child(even) { transform: rotate(0.4deg); }
+    .lesson summary {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      padding: 16px 24px;
+      cursor: pointer;
+      list-style: none;
+    }
+    .lesson summary::-webkit-details-marker { display: none; }
+    .lesson-badge {
+      flex: none;
+      width: 48px; height: 48px;
+      display: grid;
+      place-items: center;
+      font-family: 'Shantell Sans', cursive;
+      font-weight: 800;
+      font-size: 22px;
+      background: var(--amber-50);
+      color: var(--amber-800);
+      border: 2px solid var(--amber-600);
+      border-radius: 50% 46% 52% 48% / 48% 52% 46% 52%;
+    }
+    .lesson h3 {
+      font-family: 'Shantell Sans', cursive;
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 28px;
+      flex: 1;
+    }
+    .lesson .marker {
+      font-family: 'Shantell Sans', cursive;
+      font-size: 22px;
+      color: var(--slate-500);
+    }
+    .lesson[open] .marker { transform: rotate(45deg); }
+    .lesson-body {
+      padding: 0 24px 24px 96px;
+      color: var(--slate-700);
+      max-width: 65ch;
+    }
+    .lesson-soon {
+      font-family: 'Shantell Sans', cursive;
+      font-weight: 500;
+      text-align: center;
+      color: var(--slate-500);
+      padding: 16px 24px 0;
+    }
+    .lesson-soon a { color: var(--amber-800); font-weight: 700; }
+
+    /* ---------- about : taped-on note card ---------- */
+    .about { padding: 96px 0 128px; }
+    .about-card {
+      grid-column: 3 / span 8;
+      position: relative;
+      background: var(--amber-50);
+      border: 2px solid var(--ink);
+      border-radius: 6px 10px 6px 8px;
+      padding: 48px;
+      display: grid;
+      grid-template-columns: 160px 1fr;
+      gap: 32px;
+      align-items: start;
+      transform: rotate(-0.5deg);
+    }
+    .tape {
+      position: absolute;
+      top: -14px; left: 50%;
+      width: 128px; height: 28px;
+      margin-left: -64px;
+      background: var(--slate-200);
+      opacity: 0.85;
+      transform: rotate(-2deg);
+    }
+    .about-card img {
+      width: 160px; height: 160px;
+      border-radius: 50%;
+      border: 2px solid var(--ink);
+      background: var(--paper);
+    }
+    .about-card h2 { font-size: 28px; line-height: 36px; }
+    .about-card p { color: var(--slate-700); margin-bottom: 16px; }
+    .signature {
+      font-family: 'Shantell Sans', cursive;
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 28px;
+      transform: rotate(-1.5deg);
+      display: inline-block;
+    }
+
+    footer {
+      border-top: 2px solid var(--ink);
+      background: var(--paper);
+      padding: 32px 0;
+      font-size: 16px;
+      line-height: 24px;
+      color: var(--slate-500);
+    }
+    footer a { color: var(--amber-800); font-weight: 700; }
+
+    @media (max-width: 900px) {
+      .hero-copy, .hero-art, .lesson-stack { grid-column: 1 / -1; }
+      .hero-art { margin-top: 48px; max-width: 420px; }
+      .hero, .lessons { padding: 48px 0 64px; }
+      .about { padding: 64px 0; }
+      .about-card { grid-column: 1 / -1; grid-template-columns: 1fr; padding: 32px 24px; }
+      .lesson-body { padding-left: 24px; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="container masthead">
+      <a class="wordmark" href="#">Draw<span>.tips</span></a>
+      <nav>
+        <a href="#lessons">Lessons</a>
+        <a class="pencil-link" href="#about">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container grid">
+      <div class="hero-copy">
+        <h1>You <span class="squiggle">can<svg viewBox="0 0 100 12" preserveAspectRatio="none"><path d="M2 8 Q 15 2, 28 7 T 55 7 T 82 6 T 98 8" fill="none" stroke="#FFAC00" stroke-width="4" stroke-linecap="round"/></svg></span> learn how to draw.</h1>
+        <p class="lede">Talent is overrated. Drawing is a skill &mdash; and this little guide teaches it in four short lessons, starting from how to hold the pencil.</p>
+        <a class="btn" href="#lessons">Open the sketchbook</a>
+        <span class="hint">&larr; it&rsquo;s free!</span>
+      </div>
+      <div class="hero-art">
+        <span class="sticker">no talent required</span>
+        <img src="../../img/pencils_illustration.svg" alt="Two people carrying a giant pencil">
+      </div>
+    </div>
+  </section>
+
+  <section class="lessons" id="lessons">
+    <div class="container grid">
+      <div class="lessons-head">
+        <h2>Four little lessons</h2>
+        <p>Each one builds on the last, like layers of a sketch. Do them in order &mdash; slowly is fine.</p>
+      </div>
+      <div class="lesson-stack">
+        <details class="lesson" open>
+          <summary><span class="lesson-badge">0</span><h3>Why learn to draw</h3><span class="marker">+</span></summary>
+          <p class="lesson-body">Drawing is often used for therapy and relaxation. Creating something from nothing helps us feel productive. But more importantly, drawing develops our visual cortex and helps us become better designers and thinkers.</p>
+        </details>
+        <details class="lesson">
+          <summary><span class="lesson-badge">1</span><h3>How to hold a pencil</h3><span class="marker">+</span></summary>
+          <p class="lesson-body">The tripod grip, the overhand grip, and when to use each.</p>
+        </details>
+        <details class="lesson">
+          <summary><span class="lesson-badge">2</span><h3>Basic forms</h3><span class="marker">+</span></summary>
+          <p class="lesson-body">Spheres, cubes, and cylinders &mdash; the alphabet of everything you will ever draw.</p>
+        </details>
+        <details class="lesson">
+          <summary><span class="lesson-badge">3</span><h3>Complex forms</h3><span class="marker">+</span></summary>
+          <p class="lesson-body">Combining basic forms into believable objects.</p>
+        </details>
+        <p class="lesson-soon">More pages coming soon&hellip; got an idea? <a href="mailto:luka@uimotif.com">Scribble it to me</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="container grid">
+      <div class="about-card">
+        <span class="tape"></span>
+        <img src="../../img/avatar.png" alt="Illustrated portrait of Luka" width="160" height="160">
+        <div>
+          <h2>Hi, I&rsquo;m Luka</h2>
+          <p>I wrote this guide to consolidate everything I&rsquo;ve been learning about drawing. There are so many tutorials out there that choosing one becomes its own obstacle.</p>
+          <p>This is the short, friendly starting point I wish I&rsquo;d had.</p>
+          <p class="signature">&mdash; Luka</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>Draw.tips &mdash; a small guide to getting started. Suggestions to <a href="mailto:luka@uimotif.com">luka@uimotif.com</a>.</p>
+    </div>
+  </footer>
+
+  <script src="grid-overlay.js"></script>
+</body>
+</html>

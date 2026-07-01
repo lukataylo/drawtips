@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Draw.tips — Option A: The Atelier (editorial)</title>
+  <link rel="stylesheet" href="fonts-a.css">
+  <style>
+    /* ============================================================
+       OPTION A — "THE ATELIER"
+       Editorial, print-workbook feel. Left-aligned, asymmetric.
+       Type: Fraunces (display serif) + Public Sans (text).
+       Scale: 1.25 major third, base 18px, line-heights ÷4.
+       Grid: 12 col / 24px gutters / 1152px content + 24px margins.
+       Spacing: 8px system — sections at 96px, groups at 48.
+       Amber spent only on: primary CTA, lesson numbers, one rule.
+       No cards, no shadows, no gradients, no centered hero.
+       ============================================================ */
+    :root {
+      --ink: #1A273A;
+      --slate-700: #3A4E6B;
+      --slate-500: #596981;
+      --slate-200: #D4DFEF;
+      --slate-100: #EAF1FA;
+      --slate-50: #F7FAFF;
+      --amber-500: #FFAC00;
+      --amber-600: #DB940D;
+      --amber-800: #885800;
+      --amber-50: #FFF3E4;
+      --white: #FFFFFF;
+      --go-max: 1200px; --go-margin: 24px; --go-gutter: 24px; /* grid overlay */
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: var(--slate-50);
+      color: var(--ink);
+      font-family: 'Public Sans', 'Helvetica Neue', Arial, sans-serif;
+      font-size: 18px;
+      line-height: 28px;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      gap: 24px;
+    }
+
+    /* ---------- header : full-width rule under masthead ---------- */
+    header { border-bottom: 2px solid var(--ink); }
+    .masthead {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      padding: 24px 0 16px;
+    }
+    .wordmark {
+      font-family: 'Fraunces', Georgia, serif;
+      font-weight: 900;
+      font-size: 28px;
+      line-height: 32px;
+      letter-spacing: -0.01em;
+      text-decoration: none;
+      color: var(--ink);
+    }
+    .wordmark span { color: var(--amber-600); font-style: italic; font-weight: 600; }
+    .masthead nav a {
+      font-size: 16px;
+      line-height: 24px;
+      font-weight: 600;
+      color: var(--slate-700);
+      text-decoration: none;
+      margin-left: 32px;
+      border-bottom: 2px solid transparent;
+      padding-bottom: 2px;
+    }
+    .masthead nav a:hover { color: var(--ink); border-bottom-color: var(--amber-500); }
+
+    /* ---------- hero : asymmetric 7/5 split, left aligned ---------- */
+    .hero { padding: 96px 0; border-bottom: 1px solid var(--slate-200); }
+    .hero-copy { grid-column: 1 / span 7; align-self: center; }
+    .hero-art { grid-column: 9 / span 4; align-self: center; }
+    .kicker {
+      font-size: 14px;
+      line-height: 20px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--amber-800);
+      margin-bottom: 16px;
+    }
+    h1 {
+      font-family: 'Fraunces', Georgia, serif;
+      font-weight: 900;
+      font-size: clamp(2.25rem, 1.5rem + 3vw, 3.5rem); /* 36 -> 56 */
+      line-height: 1.14;
+      letter-spacing: -0.02em;
+      max-width: 14ch;
+      margin-bottom: 24px;
+    }
+    h1 em { font-style: italic; font-weight: 600; color: var(--slate-700); }
+    .lede {
+      font-size: 22px;
+      line-height: 32px;
+      color: var(--slate-700);
+      max-width: 46ch;
+      margin-bottom: 32px;
+    }
+    .btn {
+      display: inline-block;
+      background: var(--amber-500);
+      color: var(--ink);
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 24px;
+      padding: 12px 24px;
+      text-decoration: none;
+      border: 2px solid var(--ink);
+    }
+    .btn:hover { background: var(--amber-600); }
+    .btn-ghost {
+      display: inline-block;
+      color: var(--ink);
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 24px;
+      padding: 12px 8px;
+      margin-left: 16px;
+      text-decoration: underline;
+      text-decoration-color: var(--slate-200);
+      text-underline-offset: 4px;
+    }
+    .btn-ghost:hover { text-decoration-color: var(--amber-500); }
+    .hero-art img { width: 100%; height: auto; display: block; }
+    .hero-art figcaption {
+      font-size: 14px;
+      line-height: 20px;
+      color: var(--slate-500);
+      margin-top: 8px;
+      border-top: 1px solid var(--slate-200);
+      padding-top: 8px;
+    }
+
+    /* ---------- lessons : a syllabus, not cards ---------- */
+    .syllabus { padding: 96px 0; }
+    .syllabus-head { grid-column: 1 / span 4; }
+    .syllabus-list { grid-column: 5 / span 8; }
+    h2 {
+      font-family: 'Fraunces', Georgia, serif;
+      font-weight: 900;
+      font-size: 36px;
+      line-height: 44px;
+      letter-spacing: -0.01em;
+      margin-bottom: 16px;
+    }
+    .syllabus-head p { color: var(--slate-700); max-width: 30ch; }
+    .lesson {
+      border-top: 1px solid var(--slate-200);
+      padding: 24px 0;
+    }
+    .lesson:last-of-type { border-bottom: 1px solid var(--slate-200); }
+    .lesson summary {
+      display: grid;
+      grid-template-columns: 88px 1fr 24px;
+      gap: 24px;
+      align-items: baseline;
+      cursor: pointer;
+      list-style: none;
+    }
+    .lesson summary::-webkit-details-marker { display: none; }
+    .lesson-no {
+      font-family: 'Fraunces', Georgia, serif;
+      font-weight: 600;
+      font-style: italic;
+      font-size: 28px;
+      line-height: 36px;
+      color: var(--amber-600);
+      white-space: nowrap;
+    }
+    .lesson h3 {
+      font-family: 'Fraunces', Georgia, serif;
+      font-weight: 600;
+      font-size: 28px;
+      line-height: 36px;
+    }
+    .lesson .marker {
+      font-size: 22px;
+      line-height: 36px;
+      color: var(--slate-500);
+      justify-self: end;
+      transition: transform 0.15s ease-out;
+    }
+    .lesson[open] .marker { transform: rotate(45deg); }
+    .lesson-body {
+      grid-column: 2;
+      max-width: 65ch;
+      color: var(--slate-700);
+      padding: 16px 0 8px 112px;
+    }
+    .lesson-soon {
+      padding: 24px 0 24px 112px;
+      color: var(--slate-500);
+    }
+    .lesson-soon a { color: var(--amber-800); font-weight: 600; }
+
+    /* ---------- about : side-by-side, warm panel ---------- */
+    .about { background: var(--amber-50); padding: 96px 0; }
+    .about-art { grid-column: 2 / span 3; align-self: start; }
+    .about-copy { grid-column: 6 / span 6; }
+    .about-art img {
+      width: 100%; max-width: 240px; height: auto; display: block;
+      border: 2px solid var(--ink);
+      border-radius: 50%;
+    }
+    .about-copy p { color: var(--slate-700); max-width: 60ch; margin-bottom: 16px; }
+    .signature {
+      font-family: 'Fraunces', Georgia, serif;
+      font-style: italic;
+      font-weight: 600;
+      font-size: 22px;
+      line-height: 28px;
+      color: var(--ink);
+    }
+
+    footer {
+      background: var(--ink);
+      color: var(--slate-200);
+      padding: 48px 0;
+      font-size: 16px;
+      line-height: 24px;
+    }
+    footer a { color: var(--amber-500); }
+
+    @media (max-width: 900px) {
+      .hero-copy, .hero-art, .syllabus-head, .syllabus-list, .about-copy { grid-column: 1 / -1; }
+      .hero-art { margin-top: 48px; max-width: 320px; }
+      .about-art { grid-column: 1 / -1; margin-bottom: 32px; }
+      .syllabus-head { margin-bottom: 48px; }
+      .hero, .syllabus, .about { padding: 64px 0; }
+      .lesson summary { grid-template-columns: 48px 1fr 24px; gap: 16px; }
+      .lesson-body, .lesson-soon { padding-left: 64px; }
+      .lesson h3, .lesson-no { font-size: 22px; line-height: 28px; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="container masthead">
+      <a class="wordmark" href="#">Draw<span>.tips</span></a>
+      <nav>
+        <a href="#lessons">Lessons</a>
+        <a href="#about">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container grid">
+      <div class="hero-copy">
+        <p class="kicker">A free, four-part beginner&rsquo;s course</p>
+        <h1>Learning to draw is a skill, <em>not a talent.</em></h1>
+        <p class="lede">Short, ordered lessons that take you from holding a pencil to constructing complex forms &mdash; no art-school jargon, no supplies beyond paper.</p>
+        <a class="btn" href="#lessons">Start Lesson 0</a>
+        <a class="btn-ghost" href="#about">Who wrote this?</a>
+      </div>
+      <figure class="hero-art">
+        <img src="../../img/pencils_illustration.svg" alt="Two people carrying a giant pencil">
+        <figcaption>Fig. 1 &mdash; It takes less equipment than you think.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="syllabus" id="lessons">
+    <div class="container grid">
+      <div class="syllabus-head">
+        <h2>The lessons</h2>
+        <p>Work through them in order. Each one builds on the last.</p>
+      </div>
+      <div class="syllabus-list">
+        <details class="lesson" open>
+          <summary><span class="lesson-no">No. 0</span><h3>Why learn to draw</h3><span class="marker">+</span></summary>
+          <p class="lesson-body">Drawing is often used for therapy and relaxation. Creating something from nothing helps us feel productive. But more importantly, drawing develops our visual cortex and helps us become better designers and thinkers.</p>
+        </details>
+        <details class="lesson">
+          <summary><span class="lesson-no">No. 1</span><h3>How to hold a pencil</h3><span class="marker">+</span></summary>
+          <p class="lesson-body">The tripod grip, the overhand grip, and when to use each.</p>
+        </details>
+        <details class="lesson">
+          <summary><span class="lesson-no">No. 2</span><h3>Basic forms</h3><span class="marker">+</span></summary>
+          <p class="lesson-body">Spheres, cubes, and cylinders &mdash; the alphabet of everything you will ever draw.</p>
+        </details>
+        <details class="lesson">
+          <summary><span class="lesson-no">No. 3</span><h3>Complex forms</h3><span class="marker">+</span></summary>
+          <p class="lesson-body">Combining basic forms into believable objects.</p>
+        </details>
+        <p class="lesson-soon">More lessons are being written. Have an idea? <a href="mailto:luka@uimotif.com">Suggest it.</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="container grid">
+      <div class="about-art">
+        <img src="../../img/avatar.png" alt="Illustrated portrait of Luka" width="240" height="240">
+      </div>
+      <div class="about-copy">
+        <h2>About the author</h2>
+        <p>Hi, my name is Luka. I wrote this guide to consolidate everything I&rsquo;ve been learning about drawing. There is a lot of information out there &mdash; plenty of tutorials, courses, and books &mdash; and sometimes the choice itself is overwhelming.</p>
+        <p>I hope this small guide helps you skip the paralysis and simply make a start.</p>
+        <p class="signature">&mdash; Luka</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>Draw.tips &mdash; a small guide to getting started. Suggestions to <a href="mailto:luka@uimotif.com">luka@uimotif.com</a>.</p>
+    </div>
+  </footer>
+
+  <script src="grid-overlay.js"></script>
+</body>
+</html>
